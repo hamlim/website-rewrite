@@ -1,0 +1,27 @@
+.link {
+  text-decoration: none;
+}
+.header {
+  display: inline-flex;
+  align-items: center;
+}
+.wrapper {
+  margin: .5em 0em .5em .5em;
+}
+.wrapper + .wrapper {
+  margin-left: .25em;
+  margin-right: .5em;
+}
+
+.mFront,
+.hFront {
+  fill: #566573;
+}
+.mBack,
+.hBack {
+  fill: #D5D8DC;
+}
+
+.name {
+  color: #566573;
+}
