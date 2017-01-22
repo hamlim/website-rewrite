@@ -1,15 +1,21 @@
 import React from 'react';
-import {render} from 'react-dom';
-import { BrowserRouter, Match, Miss, Link } from 'react-router';
+import { Router, Route, browserHistory } from 'react-router';
 
-import Header from './components/header/header';
+import Home from './components/home/home';
 
+import Projects from './components/projects';
+import Blog from './components/blog';
 
 import './start.css';
 
-const Website = _ => (
-  <BrowserRouter>
+const Website = () => {
+  return (
+    <Router history={browserHistory}>
+      <Route path="/" component={Home} />
+      <Route path="/projects" component={Projects} />
+      <Route path="/blog" component={Blog} />
+    </Router>
+  )
+};
 
-
-  </BrowserRouter>
-)
+export default Website;

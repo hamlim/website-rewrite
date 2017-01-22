@@ -1,9 +1,10 @@
 import React from 'react';
 import {Link} from 'react-router';
 
+import styles from './anchor.css';
 
-const Anchor = ({isActive, children, ...props}) => (
-  <Link className={isActive ? styles.active : styles.link} {...props}>{children}</Link>
+const Anchor = (props) => (
+  <Link {...props} activeClassName={styles.active} />
 );
 
 export default Anchor;

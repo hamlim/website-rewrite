@@ -1,0 +1,32 @@
+:root {
+  --a: #566573;
+  --a-muted: #D5D8DC;
+  --b: #F08080;
+  --b-muted: #FFA07A;
+
+  --fonts: -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            Roboto,
+            Oxygen-Sans,
+            Ubuntu,
+            Cantarell,
+            "Helvetica Neue",
+            sans-serif;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+  font-family: var(--fonts);
+}
+
+
+:global(.b) {
+  margin: 0;
+  padding: 0;
+}

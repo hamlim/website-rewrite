@@ -1,0 +1,32 @@
+.header {
+  font-size: 1.8em;
+  height: 5rem;
+  line-height: 5rem;
+}
+
+.header::after {
+  content: '';
+  display: table-cell;
+  clear: both;
+}
+
+.pagename {
+  height: 5rem;
+  line-height: 5rem;
+  float: right;
+  margin-right: 3rem;
+}
+
+.projectslink,
+.bloglink {
+  text-decoration: none;
+  margin: 0 .25em;
+}
+
+.projectslink {
+  color: var(--b, #F08080);
+}
+
+.bloglink {
+  color: var(--b-muted, #FFA07A);
+}

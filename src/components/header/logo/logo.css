@@ -15,13 +15,13 @@
 
 .mFront,
 .hFront {
-  fill: #566573;
+  fill: var(--a, #566573);
 }
 .mBack,
 .hBack {
-  fill: #D5D8DC;
+  fill: var(--a-muted, #D5D8DC)
 }
 
 .name {
-  color: #566573;
+  color: var(--a, #566573);
 }
