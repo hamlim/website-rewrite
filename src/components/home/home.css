@@ -1,3 +1,7 @@
+.wrapper {
+  margin-top: 3rem;
+}
+
 .container {
   max-width: 30rem;
   margin: 0 auto;

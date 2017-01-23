@@ -7,9 +7,11 @@ import styles from './home.css';
 const Home = () => (
   <div className="Home">
     <Header page="Home" />
-    <section className={styles.container}>
-
-    </section>
+    <article className={styles.wrapper}>
+      <section className={styles.container}>
+        dksndfk
+      </section>
+    </article>
   </div>
 );
 

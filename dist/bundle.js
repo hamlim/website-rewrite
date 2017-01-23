@@ -12590,7 +12590,15 @@ var Home = function Home() {
     'div',
     { className: 'Home' },
     _react2.default.createElement(_header2.default, { page: 'Home' }),
-    _react2.default.createElement('section', { className: _home2.default.container })
+    _react2.default.createElement(
+      'article',
+      { className: _home2.default.wrapper },
+      _react2.default.createElement(
+        'section',
+        { className: _home2.default.container },
+        'dksndfk'
+      )
+    )
   );
 };
 
@@ -12698,10 +12706,11 @@ exports = module.exports = __webpack_require__(28)();
 
 
 // module
-exports.push([module.i, ".home__container--2s1n1 {\n  max-width: 480px;\n  max-width: 30rem;\n  margin: 0 auto;\n}\n", ""]);
+exports.push([module.i, ".home__wrapper--iCd0U {\n  margin-top: 48px;\n  margin-top: 3rem;\n}\n\n.home__container--2s1n1 {\n  max-width: 480px;\n  max-width: 30rem;\n  margin: 0 auto;\n}\n", ""]);
 
 // exports
 exports.locals = {
+	"wrapper": "home__wrapper--iCd0U",
 	"container": "home__container--2s1n1"
 };
 
