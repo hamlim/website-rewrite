@@ -1,19 +1,4 @@
-:root {
-  --a: #566573;
-  --a-muted: #D5D8DC;
-  --b: #F08080;
-  --b-muted: #FFA07A;
-
-  --fonts: -apple-system,
-            BlinkMacSystemFont,
-            "Segoe UI",
-            Roboto,
-            Oxygen-Sans,
-            Ubuntu,
-            Cantarell,
-            "Helvetica Neue",
-            sans-serif;
-}
+@import './vars.css';
 
 *, *::after, *::before {
   box-sizing: inherit;

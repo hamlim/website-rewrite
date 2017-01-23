@@ -8,7 +8,7 @@ const Home = () => (
   <div className="Home">
     <Header page="Home" />
     <section className={styles.container}>
-      <p>test</p>
+
     </section>
   </div>
 );

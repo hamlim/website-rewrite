@@ -1,19 +1,15 @@
+@import '../../vars.css';
+
 .header {
   font-size: 1.8em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
   height: 5rem;
-  line-height: 5rem;
-}
-
-.header::after {
-  content: '';
-  display: table-cell;
-  clear: both;
 }
 
 .pagename {
-  height: 5rem;
-  line-height: 5rem;
-  float: right;
   margin-right: 3rem;
 }
 
@@ -24,9 +20,9 @@
 }
 
 .projectslink {
-  color: var(--b, #F08080);
+  color: var(--b);
 }
 
 .bloglink {
-  color: var(--b-muted, #FFA07A);
+  color: var(--b-muted);
 }
