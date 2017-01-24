@@ -12537,22 +12537,11 @@ var Logo = function Logo(props) {
     _react2.default.createElement(
       'h1',
       { className: _logo2.default.header },
-      _react2.default.createElement(
-        'svg',
-        { className: _logo2.default.wrapper, viewBox: '0 0 32 32', height: '32', width: '32' },
-        _react2.default.createElement('path', { className: _logo2.default.mBack, d: 'M32 0 L32 32 L0 32 Z' }),
-        _react2.default.createElement('path', { className: _logo2.default.mFront, d: 'M0 0 L32 32 L0 32 Z' })
-      ),
-      _react2.default.createElement(
-        'svg',
-        { className: _logo2.default.wrapper, viewBox: '0 0 32 32', height: '32', width: '32' },
-        _react2.default.createElement('path', { className: _logo2.default.hBack, d: 'M0 0 L6 0 L12 32 L0 32 Z M20 0 L32 0 L32 32 L22 32 Z' }),
-        _react2.default.createElement('path', { className: _logo2.default.hFront, d: 'M32 0 L32 20 L0 32 L0 12 Z' })
-      ),
+      'Matt ',
       _react2.default.createElement(
         'span',
-        { className: _logo2.default.name },
-        'Matt Hamlin'
+        { className: _logo2.default.second },
+        'Hamlin'
       )
     )
   );
@@ -12579,6 +12568,10 @@ var _header = __webpack_require__(45);
 
 var _header2 = _interopRequireDefault(_header);
 
+var _anchor = __webpack_require__(36);
+
+var _anchor2 = _interopRequireDefault(_anchor);
+
 var _home = __webpack_require__(249);
 
 var _home2 = _interopRequireDefault(_home);
@@ -12595,8 +12588,27 @@ var Home = function Home() {
       { className: _home2.default.wrapper },
       _react2.default.createElement(
         'section',
-        { className: _home2.default.container },
-        'dksndfk'
+        null,
+        _react2.default.createElement(
+          'h2',
+          { className: _home2.default.lead },
+          'Hello. I am Matt Hamlin, a developer, designer (kinda), and also a pretty terrible writer.'
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: _home2.default.body + ' ' + _home2.default.container },
+          _react2.default.createElement(
+            'p',
+            null,
+            'I make small ',
+            _react2.default.createElement(
+              _anchor2.default,
+              { to: '/projects', className: _home2.default.link },
+              'side projects'
+            ),
+            ' of all kinds in my free time, and work with some pretty smart people at Wayfair currently.'
+          )
+        )
       )
     )
   );
@@ -12683,18 +12695,18 @@ exports = module.exports = __webpack_require__(28)();
 
 
 // module
-exports.push([module.i, ".logo__link--3_fEk {\n  text-decoration: none;\n}\n.logo__header--3CP9Z {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n.logo__wrapper--xtxn5 {\n  margin: .5em 0em .5em .5em;\n}\n.logo__wrapper--xtxn5 + .logo__wrapper--xtxn5 {\n  margin-left: .25em;\n  margin-right: .5em;\n}\n.logo__mFront--3vRgZ,\n.logo__hFront--2uGKk {\n  fill: #F08080;\n}\n.logo__mBack--3mZnW,\n.logo__hBack--kTt2o {\n  fill: #FFA07A;\n}\n.logo__name--1iiDw {\n  color: #F08080;\n}\n", ""]);
+exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n}\n.logo__link--3_fEk {\n  text-decoration: none;\n  margin-left: 48px;\n  margin-left: 3rem;\n}\n.logo__wrapper--xtxn5 {\n  margin: .5em 0em .5em .5em;\n}\n.logo__wrapper--xtxn5 + .logo__wrapper--xtxn5 {\n  margin-left: .25em;\n  margin-right: .5em;\n}\n.logo__mFront--3vRgZ,\n.logo__hFront--2uGKk {\n  fill: #F08080;\n  fill: #F08080;\n}\n.logo__mBack--3mZnW,\n.logo__hBack--kTt2o {\n  fill: #FFA07A;\n  fill: #FFA07A;\n}\n.logo__header--3CP9Z {\n  display: inline;\n  font-size: inherit;\n  color: #F08080;\n  color: #F08080;\n}\n.logo__second--2Wgn6 {\n  color: #FFA07A;\n}\n", ""]);
 
 // exports
 exports.locals = {
 	"link": "logo__link--3_fEk",
-	"header": "logo__header--3CP9Z",
 	"wrapper": "logo__wrapper--xtxn5",
 	"mFront": "logo__mFront--3vRgZ",
 	"hFront": "logo__hFront--2uGKk",
 	"mBack": "logo__mBack--3mZnW",
 	"hBack": "logo__hBack--kTt2o",
-	"name": "logo__name--1iiDw"
+	"header": "logo__header--3CP9Z",
+	"second": "logo__second--2Wgn6"
 };
 
 /***/ }),
@@ -12706,12 +12718,15 @@ exports = module.exports = __webpack_require__(28)();
 
 
 // module
-exports.push([module.i, ".home__wrapper--iCd0U {\n  margin-top: 48px;\n  margin-top: 3rem;\n}\n\n.home__container--2s1n1 {\n  max-width: 480px;\n  max-width: 30rem;\n  margin: 0 auto;\n}\n", ""]);
+exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n}\n.home__wrapper--iCd0U {\n  margin-top: 48px;\n  margin-top: 3rem;\n}\n.home__container--2s1n1 {\n  max-width: 480px;\n  max-width: 30rem;\n  margin: 0 auto;\n}\n.home__lead--2e5Wo {\n  font-size: 38.4px;\n  font-size: 2.4rem;\n  max-width: 720px;\n  max-width: 45rem;\n  margin: 0 auto;\n}\n.home__body--2od3w {\n  font-size: 19.2px;\n  font-size: 1.2rem;\n}\n.home__body--2od3w > p {\n  margin: 1em 0;\n}\n.home__link--37dd5 {\n  color: #F08080;\n  text-decoration: none;\n}\n", ""]);
 
 // exports
 exports.locals = {
 	"wrapper": "home__wrapper--iCd0U",
-	"container": "home__container--2s1n1"
+	"container": "home__container--2s1n1",
+	"lead": "home__lead--2e5Wo",
+	"body": "home__body--2od3w",
+	"link": "home__link--37dd5"
 };
 
 /***/ }),
