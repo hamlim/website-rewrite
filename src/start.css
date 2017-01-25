@@ -8,6 +8,7 @@
 html {
   box-sizing: border-box;
   font-family: var(--fonts);
+  font-size: var(--font-size);
 }
 
 

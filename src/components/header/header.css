@@ -7,10 +7,7 @@
   justify-content: space-between;
   align-items: center;
   height: 5rem;
-}
-
-.pagename {
-  margin-right: 3rem;
+  margin: 0 3rem;
 }
 
 .projectslink,
@@ -25,4 +22,18 @@
 
 .bloglink {
   color: var(--b-muted);
+}
+
+
+@media screen and (max-width: 40rem) {
+  .wrapper {
+    margin: 0 .25em;
+  }
+  .pagename {
+    display: none;
+  }
+  .header {
+    margin: 0;
+    text-align: center;
+  }
 }

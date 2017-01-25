@@ -1,7 +1,6 @@
 @import '../../../vars.css';
 .link {
   text-decoration: none;
-  margin-left: 3rem;
 }
 .wrapper {
   margin: .5em 0em .5em .5em;
@@ -21,7 +20,7 @@
 }
 
 .header {
-  display: inline;
+  display: inline-block;
   font-size: inherit;
   color: var(--a, #F08080);
 }

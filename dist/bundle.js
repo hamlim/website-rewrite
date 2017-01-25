@@ -12578,6 +12578,16 @@ var _home2 = _interopRequireDefault(_home);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var Link = function Link(_ref) {
+  var to = _ref.to,
+      children = _ref.children;
+  return _react2.default.createElement(
+    _anchor2.default,
+    { to: to, className: _home2.default.link },
+    children
+  );
+};
+
 var Home = function Home() {
   return _react2.default.createElement(
     'div',
@@ -12596,17 +12606,40 @@ var Home = function Home() {
         ),
         _react2.default.createElement(
           'div',
-          { className: _home2.default.body + ' ' + _home2.default.container },
+          { className: _home2.default.lead + ' ' + _home2.default.body },
           _react2.default.createElement(
             'p',
             null,
             'I make small ',
             _react2.default.createElement(
-              _anchor2.default,
-              { to: '/projects', className: _home2.default.link },
+              Link,
+              { to: '/projects' },
               'side projects'
             ),
             ' of all kinds in my free time, and work with some pretty smart people at Wayfair currently.'
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'I also write quite a bit about a ton of things like ',
+            _react2.default.createElement(
+              Link,
+              { to: '/tags/#development' },
+              'Development'
+            ),
+            ', ',
+            _react2.default.createElement(
+              Link,
+              { to: '/tags/#daily' },
+              'Daily'
+            ),
+            ' content, as well as a lot of ',
+            _react2.default.createElement(
+              Link,
+              { to: '/tags/#random' },
+              'Random'
+            ),
+            ' things.'
           )
         )
       )
@@ -12676,14 +12709,15 @@ exports = module.exports = __webpack_require__(28)();
 
 
 // module
-exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n}\n\n.header__header--1-4Ly {\n  font-size: 1.8em;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-flow: row wrap;\n      flex-flow: row wrap;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  height: 80px;\n  height: 5rem;\n}\n\n.header__pagename--3Uqh1 {\n  margin-right: 48px;\n  margin-right: 3rem;\n}\n\n.header__projectslink--1Uw5t,\n.header__bloglink--1rizP {\n  text-decoration: none;\n  margin: 0 .25em;\n}\n\n.header__projectslink--1Uw5t {\n  color: #4169E1;\n}\n\n.header__bloglink--1rizP {\n  color: rgb(131, 158, 236);\n}\n", ""]);
+exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n  --font-size: 18px;\n}\n\n.header__header--1-4Ly {\n  font-size: 1.8em;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-flow: row wrap;\n      flex-flow: row wrap;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  height: 80px;\n  height: 5rem;\n  margin: 0 48px;\n  margin: 0 3rem;\n}\n\n.header__projectslink--1Uw5t,\n.header__bloglink--1rizP {\n  text-decoration: none;\n  margin: 0 .25em;\n}\n\n.header__projectslink--1Uw5t {\n  color: #4169E1;\n}\n\n.header__bloglink--1rizP {\n  color: rgb(131, 158, 236);\n}\n\n@media screen and (max-width: 40rem) {\n  .header__wrapper--2NfEW {\n    margin: 0 .25em;\n  }\n  .header__pagename--3Uqh1 {\n    display: none;\n  }\n  .header__header--1-4Ly {\n    margin: 0;\n    text-align: center;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
 	"header": "header__header--1-4Ly",
-	"pagename": "header__pagename--3Uqh1",
 	"projectslink": "header__projectslink--1Uw5t",
-	"bloglink": "header__bloglink--1rizP"
+	"bloglink": "header__bloglink--1rizP",
+	"wrapper": "header__wrapper--2NfEW",
+	"pagename": "header__pagename--3Uqh1"
 };
 
 /***/ }),
@@ -12695,7 +12729,7 @@ exports = module.exports = __webpack_require__(28)();
 
 
 // module
-exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n}\n.logo__link--3_fEk {\n  text-decoration: none;\n  margin-left: 48px;\n  margin-left: 3rem;\n}\n.logo__wrapper--xtxn5 {\n  margin: .5em 0em .5em .5em;\n}\n.logo__wrapper--xtxn5 + .logo__wrapper--xtxn5 {\n  margin-left: .25em;\n  margin-right: .5em;\n}\n.logo__mFront--3vRgZ,\n.logo__hFront--2uGKk {\n  fill: #F08080;\n  fill: #F08080;\n}\n.logo__mBack--3mZnW,\n.logo__hBack--kTt2o {\n  fill: #FFA07A;\n  fill: #FFA07A;\n}\n.logo__header--3CP9Z {\n  display: inline;\n  font-size: inherit;\n  color: #F08080;\n  color: #F08080;\n}\n.logo__second--2Wgn6 {\n  color: #FFA07A;\n}\n", ""]);
+exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n  --font-size: 18px;\n}\n.logo__link--3_fEk {\n  text-decoration: none;\n}\n.logo__wrapper--xtxn5 {\n  margin: .5em 0em .5em .5em;\n}\n.logo__wrapper--xtxn5 + .logo__wrapper--xtxn5 {\n  margin-left: .25em;\n  margin-right: .5em;\n}\n.logo__mFront--3vRgZ,\n.logo__hFront--2uGKk {\n  fill: #F08080;\n  fill: #F08080;\n}\n.logo__mBack--3mZnW,\n.logo__hBack--kTt2o {\n  fill: #FFA07A;\n  fill: #FFA07A;\n}\n.logo__header--3CP9Z {\n  display: inline-block;\n  font-size: inherit;\n  color: #F08080;\n  color: #F08080;\n}\n.logo__second--2Wgn6 {\n  color: #FFA07A;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -12718,7 +12752,7 @@ exports = module.exports = __webpack_require__(28)();
 
 
 // module
-exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n}\n.home__wrapper--iCd0U {\n  margin-top: 48px;\n  margin-top: 3rem;\n}\n.home__container--2s1n1 {\n  max-width: 480px;\n  max-width: 30rem;\n  margin: 0 auto;\n}\n.home__lead--2e5Wo {\n  font-size: 38.4px;\n  font-size: 2.4rem;\n  max-width: 720px;\n  max-width: 45rem;\n  margin: 0 auto;\n}\n.home__body--2od3w {\n  font-size: 19.2px;\n  font-size: 1.2rem;\n}\n.home__body--2od3w > p {\n  margin: 1em 0;\n}\n.home__link--37dd5 {\n  color: #F08080;\n  text-decoration: none;\n}\n", ""]);
+exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n  --font-size: 18px;\n}\n.home__wrapper--iCd0U {\n  margin-top: 48px;\n  margin-top: 3rem;\n}\n.home__container--2s1n1 {\n  max-width: 480px;\n  max-width: 30rem;\n  margin: 0 auto;\n}\n.home__lead--2e5Wo {\n  font-size: 38.4px;\n  font-size: 2.4rem;\n  max-width: 720px;\n  max-width: 45rem;\n  margin: 0 auto;\n}\n.home__body--2od3w > p {\n  margin: 1em 0;\n}\n.home__link--37dd5 {\n  color: #F08080;\n  text-decoration: none;\n}\n@media screen and (max-width: 40rem) {\n  .home__wrapper--iCd0U {\n    margin: 3rem .25em;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -12738,7 +12772,7 @@ exports = module.exports = __webpack_require__(28)();
 
 
 // module
-exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n}\n\n*, *::after, *::before {\n  box-sizing: inherit;\n  margin: 0;\n  padding: 0;\n}\n\nhtml {\n  box-sizing: border-box;\n  font-family: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n}\n\n.b {\n  margin: 0;\n  padding: 0;\n}\n", ""]);
+exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n  --font-size: 18px;\n}\n\n*, *::after, *::before {\n  box-sizing: inherit;\n  margin: 0;\n  padding: 0;\n}\n\nhtml {\n  box-sizing: border-box;\n  font-family: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n  font-size: 18px;\n}\n\n.b {\n  margin: 0;\n  padding: 0;\n}\n", ""]);
 
 // exports
 

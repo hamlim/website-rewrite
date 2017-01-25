@@ -5,6 +5,10 @@ import Anchor from '../anchor';
 
 import styles from './home.css';
 
+const Link = ({to, children}) => (
+  <Anchor to={to} className={styles.link}>{children}</Anchor>
+);
+
 const Home = () => (
   <div className="Home">
     <Header page="Home" />
@@ -13,10 +17,14 @@ const Home = () => (
         <h2 className={styles.lead}>
           Hello. I am Matt Hamlin, a developer, designer (kinda), and also a pretty terrible writer.
         </h2>
-        <div className={`${styles.body} ${styles.container}`}>
+        <div className={`${styles.lead} ${styles.body}`}>
           <p>
-            I make small <Anchor to="/projects" className={styles.link}>side projects</Anchor> of all kinds in my free time, and work
+            I make small <Link to="/projects">side projects</Link> of all kinds in my free time, and work
             with some pretty smart people at Wayfair currently.
+          </p>
+          <p>
+            I also write quite a bit about a ton of things like <Link to="/tags/#development">Development</Link>
+          , <Link to="/tags/#daily">Daily</Link> content, as well as a lot of <Link to="/tags/#random">Random</Link> things.
           </p>
         </div>
       </section>
