@@ -5784,7 +5784,7 @@ var Header = function Header(props) {
       ),
       _react2.default.createElement(
         _anchor2.default,
-        { to: '/Blog', className: _header2.default.bloglink },
+        { to: '/blog', className: _header2.default.bloglink },
         'Blog'
       )
     ),
@@ -12444,6 +12444,26 @@ var _blog = __webpack_require__(116);
 
 var _blog2 = _interopRequireDefault(_blog);
 
+var _tags = __webpack_require__(254);
+
+var _tags2 = _interopRequireDefault(_tags);
+
+var _feed = __webpack_require__(256);
+
+var _feed2 = _interopRequireDefault(_feed);
+
+var _years = __webpack_require__(255);
+
+var _years2 = _interopRequireDefault(_years);
+
+var _months = __webpack_require__(252);
+
+var _months2 = _interopRequireDefault(_months);
+
+var _post = __webpack_require__(253);
+
+var _post2 = _interopRequireDefault(_post);
+
 __webpack_require__(250);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -12454,7 +12474,12 @@ var Website = function Website() {
     { history: _reactRouter.browserHistory },
     _react2.default.createElement(_reactRouter.Route, { path: '/', component: _home2.default }),
     _react2.default.createElement(_reactRouter.Route, { path: '/projects', component: _projects2.default }),
-    _react2.default.createElement(_reactRouter.Route, { path: '/blog', component: _blog2.default })
+    _react2.default.createElement(_reactRouter.Route, { path: '/blog', component: _blog2.default }),
+    _react2.default.createElement(_reactRouter.Route, { path: '/blog/tags', component: _tags2.default }),
+    _react2.default.createElement(_reactRouter.Route, { path: '/blog/feed', component: _feed2.default }),
+    _react2.default.createElement(_reactRouter.Route, { path: '/blog/years', component: _years2.default }),
+    _react2.default.createElement(_reactRouter.Route, { path: '/blog/months', component: _months2.default }),
+    _react2.default.createElement(_reactRouter.Route, { path: '/blog/post/:postTitle', component: _post2.default })
   );
 };
 
@@ -12495,11 +12520,78 @@ var _header2 = _interopRequireDefault(_header);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var Link = function Link(_ref) {
+  var to = _ref.to,
+      children = _ref.children;
+  return _react2.default.createElement(
+    _anchor2.default,
+    { to: to, className: styles.link },
+    children
+  );
+};
+
 var Blog = function Blog(props) {
   return _react2.default.createElement(
     'div',
     { className: 'Blog' },
-    _react2.default.createElement(_header2.default, { page: 'Blog' })
+    _react2.default.createElement(_header2.default, { page: 'Blog' }),
+    _react2.default.createElement(
+      'article',
+      { className: styles.wrapper },
+      _react2.default.createElement(
+        'section',
+        null,
+        _react2.default.createElement(
+          'h2',
+          { className: styles.lead },
+          'Welcome to my blog. I write about a lot of different things, I suggest checking out my ',
+          _react2.default.createElement(
+            Link,
+            { to: '/blog/tags' },
+            'tags'
+          ),
+          '.'
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: styles.lead + ' ' + styles.body },
+          _react2.default.createElement(
+            'p',
+            null,
+            'I make small ',
+            _react2.default.createElement(
+              Link,
+              { to: '/projects' },
+              'side projects'
+            ),
+            ' of all kinds in my free time, and work with some pretty smart people at Wayfair currently.'
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'I also write quite a bit about a ton of things like ',
+            _react2.default.createElement(
+              Link,
+              { to: '/tags/#development' },
+              'Development'
+            ),
+            ', ',
+            _react2.default.createElement(
+              Link,
+              { to: '/tags/#daily' },
+              'Daily'
+            ),
+            ' content, as well as a lot of ',
+            _react2.default.createElement(
+              Link,
+              { to: '/tags/#random' },
+              'Random'
+            ),
+            ' things.'
+          )
+        )
+      )
+    )
   );
 };
 
@@ -12624,19 +12716,19 @@ var Home = function Home() {
             'I also write quite a bit about a ton of things like ',
             _react2.default.createElement(
               Link,
-              { to: '/tags/#development' },
+              { to: '/blog/tags/#development' },
               'Development'
             ),
             ', ',
             _react2.default.createElement(
               Link,
-              { to: '/tags/#daily' },
+              { to: '/blog/tags/#daily' },
               'Daily'
             ),
             ' content, as well as a lot of ',
             _react2.default.createElement(
               Link,
-              { to: '/tags/#random' },
+              { to: '/blog/tags/#random' },
               'Random'
             ),
             ' things.'
@@ -27394,6 +27486,41 @@ var _start2 = _interopRequireDefault(_start);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _reactDom.render)(_react2.default.createElement(_start2.default, null), document.getElementById('mount'));
+
+/***/ }),
+/* 252 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/***/ }),
+/* 253 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/***/ }),
+/* 254 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/***/ }),
+/* 255 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/***/ }),
+/* 256 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
 
 /***/ })
 /******/ ]);

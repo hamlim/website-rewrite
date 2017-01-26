@@ -23,8 +23,8 @@ const Home = () => (
             with some pretty smart people at Wayfair currently.
           </p>
           <p>
-            I also write quite a bit about a ton of things like <Link to="/tags/#development">Development</Link>
-          , <Link to="/tags/#daily">Daily</Link> content, as well as a lot of <Link to="/tags/#random">Random</Link> things.
+            I also write quite a bit about a ton of things like <Link to="/blog/tags/#development">Development</Link>
+          , <Link to="/blog/tags/#daily">Daily</Link> content, as well as a lot of <Link to="/blog/tags/#random">Random</Link> things.
           </p>
         </div>
       </section>
