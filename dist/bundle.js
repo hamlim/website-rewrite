@@ -12535,16 +12535,48 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _anchor = __webpack_require__(30);
+
+var _anchor2 = _interopRequireDefault(_anchor);
+
+var _header = __webpack_require__(45);
+
+var _header2 = _interopRequireDefault(_header);
+
+var _subnav = __webpack_require__(258);
+
+var _subnav2 = _interopRequireDefault(_subnav);
+
+var _feed = __webpack_require__(262);
+
+var _feed2 = _interopRequireDefault(_feed);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Link = function Link(_ref) {
+  var to = _ref.to,
+      children = _ref.children;
+  return _react2.default.createElement(
+    _anchor2.default,
+    { to: to, className: _feed2.default.link },
+    children
+  );
+};
 
 var Feed = function Feed(props) {
   return _react2.default.createElement(
-    "section",
-    { className: "Feed" },
+    'section',
+    { className: 'Feed' },
+    _react2.default.createElement(_header2.default, { page: 'Feed' }),
+    _react2.default.createElement(_subnav2.default, { variation: 'Feed' }),
     _react2.default.createElement(
-      "h2",
-      null,
-      "Feed"
+      'div',
+      { className: _feed2.default.wrapper },
+      _react2.default.createElement(
+        'h2',
+        null,
+        'Feed'
+      )
     )
   );
 };
@@ -12670,16 +12702,48 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _anchor = __webpack_require__(30);
+
+var _anchor2 = _interopRequireDefault(_anchor);
+
+var _header = __webpack_require__(45);
+
+var _header2 = _interopRequireDefault(_header);
+
+var _subnav = __webpack_require__(258);
+
+var _subnav2 = _interopRequireDefault(_subnav);
+
+var _tags = __webpack_require__(264);
+
+var _tags2 = _interopRequireDefault(_tags);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Link = function Link(_ref) {
+  var to = _ref.to,
+      children = _ref.children;
+  return _react2.default.createElement(
+    _anchor2.default,
+    { to: to, className: _tags2.default.link },
+    children
+  );
+};
 
 var Tags = function Tags(props) {
   return _react2.default.createElement(
-    "section",
-    { className: "Tags" },
+    'section',
+    { className: 'Tags' },
+    _react2.default.createElement(_header2.default, { page: 'Tags' }),
+    _react2.default.createElement(_subnav2.default, { variation: 'Tags' }),
     _react2.default.createElement(
-      "h2",
-      null,
-      "Tags"
+      'div',
+      { className: _tags2.default.wrapper },
+      _react2.default.createElement(
+        'h2',
+        null,
+        'Tags'
+      )
     )
   );
 };
@@ -12890,7 +12954,7 @@ exports = module.exports = __webpack_require__(22)();
 
 
 // module
-exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n  --c: springgreen;\n  --c-muted: rgb(128, 255, 191);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n  --font-size: 18px;\n\n  --width: 720px;\n  --width: 45rem;\n}\n.blog__wrapper--XYeIC {\n  margin-top: 48px;\n  margin-top: 3rem;\n}\n.blog__container--1vtEa {\n  max-width: 480px;\n  max-width: 30rem;\n  margin: 0 auto;\n}\n.blog__lead--1LsNa {\n  font-size: 38.4px;\n  font-size: 2.4rem;\n  max-width: 720px;\n  max-width: 45rem;\n  margin: 0 auto;\n}\n.blog__body--N3agF > p {\n  margin: 1em 0;\n}\n.blog__link--cwkSa {\n  color: #F08080;\n  text-decoration: none;\n}\n@media screen and (max-width: 40rem) {\n  .blog__wrapper--XYeIC {\n    margin: 3rem .25em;\n  }\n}\n", ""]);
+exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n  --c: springgreen;\n  --c-muted: rgb(128, 255, 191);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n  --font-size: 18px;\n\n  --width: 720px;\n  --width: 45rem;\n  --width-s: 480px;\n  --width-s: 30rem;\n}\n.blog__wrapper--XYeIC {\n  margin-top: 48px;\n  margin-top: 3rem;\n}\n.blog__container--1vtEa {\n  max-width: 480px;\n  max-width: 30rem;\n  margin: 0 auto;\n}\n.blog__lead--1LsNa {\n  font-size: 38.4px;\n  font-size: 2.4rem;\n  max-width: 720px;\n  max-width: 45rem;\n  margin: 0 auto;\n}\n.blog__body--N3agF > p {\n  margin: 1em 0;\n}\n.blog__link--cwkSa {\n  color: #F08080;\n  text-decoration: none;\n}\n@media screen and (max-width: 40rem) {\n  .blog__wrapper--XYeIC {\n    margin: 3rem .25em;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -12910,7 +12974,7 @@ exports = module.exports = __webpack_require__(22)();
 
 
 // module
-exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n  --c: springgreen;\n  --c-muted: rgb(128, 255, 191);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n  --font-size: 18px;\n\n  --width: 720px;\n  --width: 45rem;\n}\n\n.header__header--1-4Ly {\n  font-size: 1.8em;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-flow: row wrap;\n      flex-flow: row wrap;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  height: 80px;\n  height: 5rem;\n  margin: 0 48px;\n  margin: 0 3rem;\n}\n\n.header__projectslink--1Uw5t,\n.header__bloglink--1rizP {\n  text-decoration: none;\n  margin: 0 .25em;\n}\n\n.header__projectslink--1Uw5t {\n  color: #4169E1;\n}\n\n.header__bloglink--1rizP {\n  color: rgb(131, 158, 236);\n}\n\n@media screen and (max-width: 40rem) {\n  .header__wrapper--2NfEW {\n    margin: 0 .25em;\n  }\n  .header__pagename--3Uqh1 {\n    display: none;\n  }\n  .header__header--1-4Ly {\n    margin: 0;\n    text-align: center;\n  }\n}\n", ""]);
+exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n  --c: springgreen;\n  --c-muted: rgb(128, 255, 191);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n  --font-size: 18px;\n\n  --width: 720px;\n  --width: 45rem;\n  --width-s: 480px;\n  --width-s: 30rem;\n}\n\n.header__header--1-4Ly {\n  font-size: 1.8em;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-flow: row wrap;\n      flex-flow: row wrap;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  height: 80px;\n  height: 5rem;\n  margin: 0 48px;\n  margin: 0 3rem;\n}\n\n.header__projectslink--1Uw5t,\n.header__bloglink--1rizP {\n  text-decoration: none;\n  margin: 0 .25em;\n}\n\n.header__projectslink--1Uw5t {\n  color: #4169E1;\n}\n\n.header__bloglink--1rizP {\n  color: rgb(131, 158, 236);\n}\n\n@media screen and (max-width: 40rem) {\n  .header__wrapper--2NfEW {\n    margin: 0 .25em;\n  }\n  .header__pagename--3Uqh1 {\n    display: none;\n  }\n  .header__header--1-4Ly {\n    margin: 0;\n    text-align: center;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -12930,7 +12994,7 @@ exports = module.exports = __webpack_require__(22)();
 
 
 // module
-exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n  --c: springgreen;\n  --c-muted: rgb(128, 255, 191);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n  --font-size: 18px;\n\n  --width: 720px;\n  --width: 45rem;\n}\n.logo__link--3_fEk {\n  text-decoration: none;\n}\n.logo__wrapper--xtxn5 {\n  margin: .5em 0em .5em .5em;\n}\n.logo__wrapper--xtxn5 + .logo__wrapper--xtxn5 {\n  margin-left: .25em;\n  margin-right: .5em;\n}\n.logo__mFront--3vRgZ,\n.logo__hFront--2uGKk {\n  fill: #F08080;\n  fill: #F08080;\n}\n.logo__mBack--3mZnW,\n.logo__hBack--kTt2o {\n  fill: #FFA07A;\n  fill: #FFA07A;\n}\n.logo__header--3CP9Z {\n  display: inline-block;\n  font-size: inherit;\n  color: #F08080;\n  color: #F08080;\n}\n.logo__second--2Wgn6 {\n  color: #FFA07A;\n}\n", ""]);
+exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n  --c: springgreen;\n  --c-muted: rgb(128, 255, 191);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n  --font-size: 18px;\n\n  --width: 720px;\n  --width: 45rem;\n  --width-s: 480px;\n  --width-s: 30rem;\n}\n.logo__link--3_fEk {\n  text-decoration: none;\n}\n.logo__wrapper--xtxn5 {\n  margin: .5em 0em .5em .5em;\n}\n.logo__wrapper--xtxn5 + .logo__wrapper--xtxn5 {\n  margin-left: .25em;\n  margin-right: .5em;\n}\n.logo__mFront--3vRgZ,\n.logo__hFront--2uGKk {\n  fill: #F08080;\n  fill: #F08080;\n}\n.logo__mBack--3mZnW,\n.logo__hBack--kTt2o {\n  fill: #FFA07A;\n  fill: #FFA07A;\n}\n.logo__header--3CP9Z {\n  display: inline-block;\n  font-size: inherit;\n  color: #F08080;\n  color: #F08080;\n}\n.logo__second--2Wgn6 {\n  color: #FFA07A;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -12953,7 +13017,7 @@ exports = module.exports = __webpack_require__(22)();
 
 
 // module
-exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n  --c: springgreen;\n  --c-muted: rgb(128, 255, 191);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n  --font-size: 18px;\n\n  --width: 720px;\n  --width: 45rem;\n}\n.home__wrapper--iCd0U {\n  margin-top: 48px;\n  margin-top: 3rem;\n}\n.home__container--2s1n1 {\n  max-width: 480px;\n  max-width: 30rem;\n  margin: 0 auto;\n}\n.home__lead--2e5Wo {\n  font-size: 38.4px;\n  font-size: 2.4rem;\n  max-width: 720px;\n  max-width: 45rem;\n  margin: 0 auto;\n}\n.home__body--2od3w > p {\n  margin: 1em 0;\n}\n.home__link--37dd5 {\n  color: #F08080;\n  text-decoration: none;\n}\n@media screen and (max-width: 40rem) {\n  .home__wrapper--iCd0U {\n    margin: 3rem .25em;\n  }\n}\n", ""]);
+exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n  --c: springgreen;\n  --c-muted: rgb(128, 255, 191);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n  --font-size: 18px;\n\n  --width: 720px;\n  --width: 45rem;\n  --width-s: 480px;\n  --width-s: 30rem;\n}\n.home__wrapper--iCd0U {\n  margin-top: 48px;\n  margin-top: 3rem;\n}\n.home__container--2s1n1 {\n  max-width: 480px;\n  max-width: 30rem;\n  margin: 0 auto;\n}\n.home__lead--2e5Wo {\n  font-size: 38.4px;\n  font-size: 2.4rem;\n  max-width: 720px;\n  max-width: 45rem;\n  margin: 0 auto;\n}\n.home__body--2od3w > p {\n  margin: 1em 0;\n}\n.home__link--37dd5 {\n  color: #F08080;\n  text-decoration: none;\n}\n@media screen and (max-width: 40rem) {\n  .home__wrapper--iCd0U {\n    margin: 3rem .25em;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -12973,7 +13037,7 @@ exports = module.exports = __webpack_require__(22)();
 
 
 // module
-exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n  --c: springgreen;\n  --c-muted: rgb(128, 255, 191);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n  --font-size: 18px;\n\n  --width: 720px;\n  --width: 45rem;\n}\n\n*, *::after, *::before {\n  box-sizing: inherit;\n  margin: 0;\n  padding: 0;\n}\n\nhtml {\n  box-sizing: border-box;\n  font-family: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n  font-size: 18px;\n}\n\n.b {\n  margin: 0;\n  padding: 0;\n}\n", ""]);
+exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n  --c: springgreen;\n  --c-muted: rgb(128, 255, 191);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n  --font-size: 18px;\n\n  --width: 720px;\n  --width: 45rem;\n  --width-s: 480px;\n  --width-s: 30rem;\n}\n\n*, *::after, *::before {\n  box-sizing: inherit;\n  margin: 0;\n  padding: 0;\n}\n\nhtml {\n  box-sizing: border-box;\n  font-family: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n  font-size: 18px;\n}\n\n.b {\n  margin: 0;\n  padding: 0;\n}\n", ""]);
 
 // exports
 
@@ -27685,6 +27749,54 @@ var Subnav = function Subnav(_ref2) {
         )
       )
     );
+  } else if (variation === "Feed") {
+    return _react2.default.createElement(
+      'nav',
+      { className: _styles2.default.nav },
+      _react2.default.createElement(
+        'div',
+        { className: _styles2.default.wrapper },
+        _react2.default.createElement(
+          Link,
+          { to: '/blog' },
+          'Blog'
+        ),
+        _react2.default.createElement(
+          Link,
+          { to: '/blog/feed', active: true },
+          'Feed'
+        ),
+        _react2.default.createElement(
+          Link,
+          { to: '/blog/tags' },
+          'Tags'
+        )
+      )
+    );
+  } else if (variation === "Tags") {
+    return _react2.default.createElement(
+      'nav',
+      { className: _styles2.default.nav },
+      _react2.default.createElement(
+        'div',
+        { className: _styles2.default.wrapper },
+        _react2.default.createElement(
+          Link,
+          { to: '/blog' },
+          'Blog'
+        ),
+        _react2.default.createElement(
+          Link,
+          { to: '/blog/feed' },
+          'Feed'
+        ),
+        _react2.default.createElement(
+          Link,
+          { to: '/blog/tags', active: true },
+          'Tags'
+        )
+      )
+    );
   }
 };
 
@@ -27699,7 +27811,7 @@ exports = module.exports = __webpack_require__(22)();
 
 
 // module
-exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n  --c: springgreen;\n  --c-muted: rgb(128, 255, 191);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n  --font-size: 18px;\n\n  --width: 720px;\n  --width: 45rem;\n}\n\n.styles__nav--1cbWK {\n  width: 100%;\n  font-size: 32px;\n  font-size: 2rem;\n  background-color: rgb(128, 255, 191);\n  padding: .5em 0;\n}\n\n.styles__wrapper--2Y-KI {\n  width: 720px;\n  width: 45rem;\n  margin: 0 auto;\n}\n\n.styles__link--3_jcK,\n.styles__activelink--2mag7 {\n  text-decoration: none;\n  margin: 0 1em;\n}\n\n.styles__activelink--2mag7 {\n  color: #F08080;\n}\n\n.styles__link--3_jcK {\n  color: #FFA07A;\n}\n", ""]);
+exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n  --c: springgreen;\n  --c-muted: rgb(128, 255, 191);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n  --font-size: 18px;\n\n  --width: 720px;\n  --width: 45rem;\n  --width-s: 480px;\n  --width-s: 30rem;\n}\n\n.styles__nav--1cbWK {\n  width: 100%;\n  font-size: 32px;\n  font-size: 2rem;\n  background-color: rgb(128, 255, 191);\n  padding: .5em 0;\n}\n\n.styles__wrapper--2Y-KI {\n  width: 720px;\n  width: 45rem;\n  margin: 0 auto;\n}\n\n.styles__link--3_jcK,\n.styles__activelink--2mag7 {\n  text-decoration: none;\n  margin: 0 1em;\n}\n\n.styles__activelink--2mag7 {\n  color: #F08080;\n}\n\n.styles__link--3_jcK {\n  color: #FFA07A;\n}\n\n.styles__activelink--2mag7:hover,\n.styles__activelink--2mag7:focus,\n.styles__link--3_jcK:hover,\n.styles__link--3_jcK:focus {\n  background-color: springgreen;\n}\n\n@media screen and (max-width: 40rem) {\n  .styles__nav--1cbWK {\n    font-size: 1.5rem;\n  }\n  .styles__wrapper--2Y-KI {\n    width: auto;\n  }\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -27727,6 +27839,98 @@ if(false) {
 	if(!content.locals) {
 		module.hot.accept("!!./../../../../node_modules/css-loader/index.js?{\"modules\":true,\"localIdentName\":\"[path][name]__[local]--[hash:base64:5]\"}!./../../../../node_modules/postcss-loader/index.js!./styles.css", function() {
 			var newContent = require("!!./../../../../node_modules/css-loader/index.js?{\"modules\":true,\"localIdentName\":\"[path][name]__[local]--[hash:base64:5]\"}!./../../../../node_modules/postcss-loader/index.js!./styles.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 261 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(22)();
+// imports
+
+
+// module
+exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n  --c: springgreen;\n  --c-muted: rgb(128, 255, 191);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n  --font-size: 18px;\n\n  --width: 720px;\n  --width: 45rem;\n  --width-s: 480px;\n  --width-s: 30rem;\n}\n.feed__wrapper--2hsnN {\n  margin-top: 48px;\n  margin-top: 3rem;\n  max-width: 720px;\n  max-width: 45rem;\n  margin-left: auto;\n  margin-right: auto;\n}\n.feed__container--2inwy {\n  max-width: 480px;\n  max-width: 30rem;\n  margin: 0 auto;\n}\n.feed__lead--1P2EA {\n  font-size: 38.4px;\n  font-size: 2.4rem;\n  max-width: 720px;\n  max-width: 45rem;\n  margin: 0 auto;\n}\n.feed__body--3K6ST > p {\n  margin: 1em 0;\n}\n.feed__link--212Pi {\n  color: #F08080;\n  text-decoration: none;\n}\n@media screen and (max-width: 40rem) {\n  .feed__wrapper--2hsnN {\n    margin: 3rem .25em;\n  }\n}\n", ""]);
+
+// exports
+exports.locals = {
+	"wrapper": "feed__wrapper--2hsnN",
+	"container": "feed__container--2inwy",
+	"lead": "feed__lead--1P2EA",
+	"body": "feed__body--3K6ST",
+	"link": "feed__link--212Pi"
+};
+
+/***/ }),
+/* 262 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(261);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// add the styles to the DOM
+var update = __webpack_require__(29)(content, {});
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!./../../../../node_modules/css-loader/index.js?{\"modules\":true,\"localIdentName\":\"[path][name]__[local]--[hash:base64:5]\"}!./../../../../node_modules/postcss-loader/index.js!./feed.css", function() {
+			var newContent = require("!!./../../../../node_modules/css-loader/index.js?{\"modules\":true,\"localIdentName\":\"[path][name]__[local]--[hash:base64:5]\"}!./../../../../node_modules/postcss-loader/index.js!./feed.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 263 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(22)();
+// imports
+
+
+// module
+exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n  --c: springgreen;\n  --c-muted: rgb(128, 255, 191);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n  --font-size: 18px;\n\n  --width: 720px;\n  --width: 45rem;\n  --width-s: 480px;\n  --width-s: 30rem;\n}\n.tags__wrapper--1a11x {\n  margin-top: 48px;\n  margin-top: 3rem;\n  max-width: 720px;\n  max-width: 45rem;\n  margin-left: auto;\n  margin-right: auto;\n}\n.tags__container--3U7Ex {\n  max-width: 480px;\n  max-width: 30rem;\n  margin: 0 auto;\n}\n.tags__lead--2hnSu {\n  font-size: 38.4px;\n  font-size: 2.4rem;\n  max-width: 720px;\n  max-width: 45rem;\n  margin: 0 auto;\n}\n.tags__body--I2OKv > p {\n  margin: 1em 0;\n}\n.tags__link--2PqJE {\n  color: #F08080;\n  text-decoration: none;\n}\n@media screen and (max-width: 40rem) {\n  .tags__wrapper--1a11x {\n    margin: 3rem .25em;\n  }\n}\n", ""]);
+
+// exports
+exports.locals = {
+	"wrapper": "tags__wrapper--1a11x",
+	"container": "tags__container--3U7Ex",
+	"lead": "tags__lead--2hnSu",
+	"body": "tags__body--I2OKv",
+	"link": "tags__link--2PqJE"
+};
+
+/***/ }),
+/* 264 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(263);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// add the styles to the DOM
+var update = __webpack_require__(29)(content, {});
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!./../../../../node_modules/css-loader/index.js?{\"modules\":true,\"localIdentName\":\"[path][name]__[local]--[hash:base64:5]\"}!./../../../../node_modules/postcss-loader/index.js!./tags.css", function() {
+			var newContent = require("!!./../../../../node_modules/css-loader/index.js?{\"modules\":true,\"localIdentName\":\"[path][name]__[local]--[hash:base64:5]\"}!./../../../../node_modules/postcss-loader/index.js!./tags.css");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});

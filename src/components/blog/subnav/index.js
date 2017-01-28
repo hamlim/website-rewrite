@@ -21,6 +21,26 @@ const Subnav = ({variation}) => {
         </div>
       </nav>
     )
+  } else if (variation === "Feed") {
+    return (
+      <nav className={styles.nav}>
+        <div className={styles.wrapper}>
+          <Link to="/blog">Blog</Link>
+          <Link to="/blog/feed" active>Feed</Link>
+          <Link to="/blog/tags">Tags</Link>
+        </div>
+      </nav>
+    )
+  } else if (variation === "Tags") {
+    return (
+      <nav className={styles.nav}>
+        <div className={styles.wrapper}>
+          <Link to="/blog">Blog</Link>
+          <Link to="/blog/feed">Feed</Link>
+          <Link to="/blog/tags" active>Tags</Link>
+        </div>
+      </nav>
+    )
   }
 };
 
