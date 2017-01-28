@@ -1,0 +1,26 @@
+@import '../../../vars.css';
+
+.nav {
+  width: 100%;
+  font-size: 2rem;
+  background-color: var(--c-muted);
+  padding: .5em 0;
+}
+
+.wrapper {
+  width: var(--width);
+  margin: 0 auto;
+}
+
+.link,
+.activelink {
+  text-decoration: none;
+  margin: 0 1em;
+}
+
+.activelink {
+  color: var(--a);
+}
+.link {
+  color: var(--a-muted);
+}

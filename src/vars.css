@@ -3,6 +3,8 @@
   --a-muted: #FFA07A;
   --b: #4169E1;
   --b-muted: color(var(--b) lightness(+ 15%));
+  --c: springgreen;
+  --c-muted: color(var(--c) lightness(+ 25%));
 
 
   --gray: #566573;
@@ -18,4 +20,6 @@
             "Helvetica Neue",
             sans-serif;
   --font-size: 18px;
+
+  --width: 45rem;
 }
