@@ -1,0 +1,19 @@
+@import '../../../../vars.css';
+
+.wrap {
+  margin-top: 3rem;
+}
+
+:local(.link) {
+  color: var(--a);
+}
+
+.header {
+  text-decoration: underline;
+  font-size: 1.35rem;
+  margin-bottom: .5rem;
+}
+
+.list {
+  list-style-type: none;
+}
