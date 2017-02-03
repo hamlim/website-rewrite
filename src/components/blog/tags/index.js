@@ -13,15 +13,16 @@ const Link = ({to, children}) => (
 );
 
 class Tags extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      feed: []
-    };
+  constructor = (props) => {
+    this.super(props);
     this.setState = this.setState.bind(this);
   }
 
-  componentDidMount() {
+  state = {
+    feed: []
+  }
+
+  componentDidMount = () => {
     fetch('/assets/json/posts.json').then(r => {
       return r.json();
     }).then(feed => {
@@ -30,7 +31,7 @@ class Tags extends Component {
     }).catch(err => console.warn(err));
   }
 
-  render() {
+  render = () => {
     let feedLengthBool = this.state.feed.length > 0;
     return (
       <section className="Tags">

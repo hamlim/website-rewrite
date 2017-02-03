@@ -6,10 +6,11 @@ var cssnext = require('postcss-cssnext')({
 			html: false
 		},
 		customProperties: {
-			preserve: 'computed'
-		}
-	}}
-);
+			preserve: true
+		},
+		warning: false
+	}
+});
 
 
 module.exports = {
@@ -26,7 +27,8 @@ module.exports = {
 				use: [{
 					loader: 'babel-loader',
 					options: {
-						presets: ['es2015', 'react']
+						presets: ['es2015', 'react'],
+						plugins: ["transform-class-properties"]
 					}
 				}]
 			},

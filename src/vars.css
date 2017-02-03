@@ -2,9 +2,9 @@
   --a: #F08080;
   --a-muted: #FFA07A;
   --b: #4169E1;
-  --b-muted: color(var(--b) lightness(+ 15%));
+  --b-muted: color(#4169E1 lightness(+ 15%));
   --c: springgreen;
-  --c-muted: color(var(--c) lightness(+ 25%));
+  --c-muted: color(springgreen lightness(+ 25%));
 
 
   --gray: #566573;

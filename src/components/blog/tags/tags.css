@@ -6,21 +6,6 @@
   margin-right: auto;
 }
 
-.container {
-  max-width: var(--width-s);
-  margin: 0 auto;
-}
-
-.lead {
-  font-size: 2.4rem;
-  max-width: var(--width);
-  margin: 0 auto;
-}
-
-.body > p {
-  margin: 1em 0;
-}
-
 .link {
   color: var(--a);
   text-decoration: none;

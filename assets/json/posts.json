@@ -1,5 +1,15 @@
 [
   {
+    "title": "Thirty",
+    "slug": "thirty",
+    "date": "01-30-2017",
+    "month": "January",
+    "year": 2017,
+    "day": "30th",
+    "content": "01-30-17-Thirty.md",
+    "tags": ["Development", "Daily"]
+  },
+  {
     "title": "Twenty Nine",
     "slug": "twenty-nine",
     "date": "01-29-2017",
