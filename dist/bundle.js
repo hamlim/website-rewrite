@@ -28572,7 +28572,7 @@ exports = module.exports = __webpack_require__(22)();
 
 
 // module
-exports.push([module.i, ":root {\n  --a: #F08080;\n  --a-muted: #FFA07A;\n  --b: #4169E1;\n  --b-muted: rgb(131, 158, 236);\n  --c: springgreen;\n  --c-muted: rgb(128, 255, 191);\n\n\n  --gray: #566573;\n  --gray-muted: #D5D8DC;\n\n  --fonts: -apple-system,\n            BlinkMacSystemFont,\n            \"Segoe UI\",\n            Roboto,\n            Oxygen-Sans,\n            Ubuntu,\n            Cantarell,\n            \"Helvetica Neue\",\n            sans-serif;\n  --font-size: 18px;\n\n  --width: 720px;\n  --width: 45rem;\n  --width-s: 480px;\n  --width-s: 30rem;\n}\n\n.styles__wrap--9Ndro {\n  margin-top: 48px;\n  margin-top: 3rem;\n}\n\n.styles__link--3_jcK {\n  color: #F08080;\n}\n\n.styles__header--1yxQY {\n  text-decoration: underline;\n  font-size: 21.6px;\n  font-size: 1.35rem;\n  margin-bottom: 8px;\n  margin-bottom: .5rem;\n}\n\n.styles__list--1jPDK {\n  list-style-type: none;\n}\n", ""]);
+exports.push([module.i, "\n.styles__wrap--9Ndro {\n  margin-top: 48px;\n  margin-top: 3rem;\n}\n\n.styles__link--3_jcK {\n  color: var(--a);\n}\n\n.styles__header--1yxQY {\n  text-decoration: underline;\n  font-size: 21.6px;\n  font-size: 1.35rem;\n  margin-bottom: 16px;\n  margin-bottom: 1rem;\n}\n\n.styles__list--1jPDK {\n  list-style-type: none;\n}\n", ""]);
 
 // exports
 exports.locals = {
