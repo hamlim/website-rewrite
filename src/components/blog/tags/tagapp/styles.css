@@ -4,7 +4,7 @@
 }
 
 :local(.link) {
-  color: var(--a);
+  color: var(--a, #F08080);
 }
 
 .header {

@@ -7,7 +7,8 @@
     "year": 2017,
     "day": "30th",
     "content": "01-30-17-Thirty.md",
-    "tags": ["Development", "Daily"]
+    "tags": ["Development", "Daily"],
+    "lede": "Today I spent most of the day working on my new website. I started from the ground up working on the simple things like headers and wrapper components."
   },
   {
     "title": "Twenty Nine",
