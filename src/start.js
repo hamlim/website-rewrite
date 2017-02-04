@@ -21,8 +21,8 @@ const Website = () => {
         <IndexRoute component={Blog}/>
         <Route path="/blog/tags" component={Tags}/>
         <Route path="/blog/feed" component={Feed} />
-        <Route path="/blog/post/:slug" component={Post}/>
       </Route>
+      <Route path="/post/:slug" component={Post}/>
     </Router>
   )
 };

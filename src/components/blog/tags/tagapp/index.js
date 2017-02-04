@@ -18,9 +18,6 @@ const TagApp = ({feed}) => {
 				}
 			}
 		}
-		if (post.tag != undefined) {
-			tagSet.add(post.tag);
-		}
 	});
 	let tagArr = [...tagSet];
 	return (
@@ -30,7 +27,7 @@ const TagApp = ({feed}) => {
 					<ul key={index} className={styles.list}>
 						<h4 id={tag.toLowerCase()} className={styles.header}>{tag}</h4>
 						{feed.map((post, index) => {
-							if ((post.hasOwnProperty('tag') && (post.tag === tag)) || (post.hasOwnProperty('tags') && post.tags.includes(tag))) {
+							if (post.hasOwnProperty('tags') && post.tags.includes(tag)) {
 								return (
 									<li key={index}><Link to={`/post/${post.slug}`}>{post.title}</Link></li>
 								);

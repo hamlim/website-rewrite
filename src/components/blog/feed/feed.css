@@ -1,19 +1,18 @@
-@import '../../../vars.css';
 .wrapper {
   margin-top: 3rem;
-  max-width: var(--width);
+  max-width: var(--width, 45rem);
   margin-left: auto;
   margin-right: auto;
 }
 
 .container {
-  max-width: var(--width-s);
+  max-width: var(--width-s, 35rem);
   margin: 0 auto;
 }
 
 .lead {
   font-size: 2.4rem;
-  max-width: var(--width);
+  max-width: var(--width, 45rem);
   margin: 0 auto;
 }
 
@@ -22,7 +21,7 @@
 }
 
 .link {
-  color: var(--a);
+  color: var(--a, #F08080);
   text-decoration: none;
 }
 
