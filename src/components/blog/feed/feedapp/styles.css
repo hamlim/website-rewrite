@@ -17,6 +17,7 @@
   width: 25rem;
   padding: 1em;
   border-radius: 5px;
+  will-change: box-shadow;
   box-shadow: 0 10px 5em -30px var(--a, #F08080);
 }
 
