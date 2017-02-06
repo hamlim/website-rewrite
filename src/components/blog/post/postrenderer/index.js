@@ -1,6 +1,12 @@
 import React, {Component} from 'react';
 import 'whatwg-fetch';
-import marked from 'marked';
+// import marked from 'marked';
+var md = require('markdown-it')()
+  .use(require('markdown-it-task-checkbox'),{
+    disabled: true,
+    ulClass: 'task-list',
+    liClass: 'task-list-item'
+  });
 
 class PostRenderer extends Component {
   constructor = (props) => {
@@ -24,7 +30,7 @@ class PostRenderer extends Component {
     console.log(this.state);
   }
   render = () => (
-    <article dangerouslySetInnerHTML={{ __html: marked(this.state.markdown) }}></article>
+    <article dangerouslySetInnerHTML={{ __html: md.render(this.state.markdown) }}></article>
   )
 };
 
