@@ -36,16 +36,17 @@ class Post extends Component {
       <Header page="Post" />
       {(this.state && this.state.post) ? (
         <div className={styles.wrapper}>
-          <h2 className={styles.postTitle}>{this.state.post.title}</h2>
-          <h4 className={styles.postDate}>Published: {`${this.state.post.day} of ${this.state.post.month}, ${this.state.post.year}`}.</h4>
-          <div className={styles.postBody}>
-            <PostRenderer post={this.state.post} />
-          </div>
-          <div className={styles.postTags}>
+          <header className={styles.header}>
+            <h2 className={styles.postTitle}>{this.state.post.title}</h2>
+            <h4 className={styles.postDate}>Published: {`${this.state.post.day} of ${this.state.post.month}, ${this.state.post.year}`}.</h4>
+          </header>
+          <PostRenderer post={this.state.post} />
+          <footer className={styles.footer}>
+            <h4 className={styles.postTags}>Tags:</h4><br/>
             {this.state.post.tags.map((tag, index) => (
-              <Link to={`/blog/tags/:${tag}`} key={index}>{tag}</Link>
+              <Link to={`/blog/tags/#${tag}`} key={index}>{tag}</Link>
             ))}
-          </div>
+          </footer>
         </div>
       ) : (
         <div className={styles.loading}></div>

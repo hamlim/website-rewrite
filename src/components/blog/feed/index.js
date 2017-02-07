@@ -26,7 +26,6 @@ class Feed extends Component {
     fetch('/assets/json/posts.json').then(r => {
       return r.json();
     }).then(feed => {
-      console.log(feed);
       this.setState({feed});
     }).catch(err => console.warn(err));
   }

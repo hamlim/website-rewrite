@@ -1,0 +1,32 @@
+.article {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  @media screen and (min-width: 45rem) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  & > p + p {
+    margin-top: 1rem;
+  }
+  & p:first-child {
+    margin-top: 1.5rem;
+  }
+  & hr {
+    margin: 1rem auto;
+    max-width: 45vw;
+    @media screen and (max-width: 40rem) {
+      width: 95vw;
+    }
+  }
+  & a {
+    color: var(--a);
+    text-decoration: none;
+  }
+}
+
+:global(.task-list-item) {
+  list-style: none;
+}

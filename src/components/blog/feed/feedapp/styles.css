@@ -13,12 +13,15 @@
 }
 
 .postcard {
-  margin: 0 auto 3rem;
-  width: 25rem;
+  margin: 0 auto;
+  max-width: 25rem;
   padding: 1em;
   border-radius: 5px;
-  will-change: box-shadow;
-  box-shadow: 0 10px 5em -30px var(--a, #F08080);
+  @media screen and (min-width: 45rem) {
+    will-change: box-shadow;
+    box-shadow: 0 10px 5em -30px var(--a, #F08080);
+    margin: 0 auto 3rem;
+  }
 }
 
 .posttitle {
