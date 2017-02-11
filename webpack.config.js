@@ -3,12 +3,10 @@ var webpack = require('webpack');
 var cssnext = require('postcss-cssnext')({
 	features: {
 		rem: {
-			html: false
+			html: false,
+			browsers: 'ie > 11'
 		},
-		customProperties: {
-			preserve: true
-		},
-		warning: false
+		customProperties: false
 	}
 });
 
