@@ -6,7 +6,7 @@
 }
 
 .header,
-.footer {
+.section {
   margin-left: 1rem;
   margin-right: 1rem;
   @media screen and (min-width: 45rem) {
@@ -14,7 +14,7 @@
     margin-right: 0;
   }
 }
-.footer {
+.section {
   margin-bottom: 3rem;
 }
 
@@ -25,7 +25,6 @@
 }
 .postTitle {
   font-size: 3rem;
-  text-align: center;
 }
 .postDate,
 .postTags {
@@ -36,4 +35,14 @@
 
 .postTags {
   display: inline-block;
+}
+
+.tag {
+  background-color: var(--b-muted);
+  padding: .25em;
+  color: var(--b);
+  border-radius: 4px;
+  & a {
+    color: inherit;
+  }
 }

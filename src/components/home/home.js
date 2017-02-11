@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Helmet from "react-helmet";
 import Header from '../header/header';
 import Anchor from '../anchor';
 
@@ -11,6 +11,7 @@ const Link = ({to, children}) => (
 
 const Home = () => (
   <div className="Home">
+    <Helmet title="Home" />
     <Header page="Home" />
     <article className={styles.wrapper}>
       <section>

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Helmet from "react-helmet";
 import Anchor from '../anchor';
 import Header from '../header/header';
 import Subnav from './subnav';
@@ -12,6 +12,7 @@ const Link = ({to, children}) => (
 
 const Blog = (props) => (
   <div className="Blog">
+    <Helmet title="Blog" />
     <Header page="Blog" />
     <Subnav variation="Blog"/>
       <article className={styles.wrapper}>

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Helmet from "react-helmet";
 import 'whatwg-fetch';
 
 import Anchor from '../../anchor';
@@ -34,6 +35,7 @@ class Feed extends Component {
     let feedLengthBool = this.state.feed.length > 0;
     return (
       <section className="Feed">
+        <Helmet title="Feed" />
         <Header page="Feed" />
         <Subnav variation="Feed" />
         <div className={styles.wrapper}>

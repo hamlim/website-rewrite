@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Helmet from "react-helmet";
 import 'whatwg-fetch';
 
 import Anchor from '../../anchor';
@@ -36,17 +37,18 @@ class Post extends Component {
       <Header page="Post" />
       {(this.state && this.state.post) ? (
         <div className={styles.wrapper}>
+          <Helmet title={this.state.post.title} />
           <header className={styles.header}>
             <h2 className={styles.postTitle}>{this.state.post.title}</h2>
             <h4 className={styles.postDate}>Published: {`${this.state.post.day} of ${this.state.post.month}, ${this.state.post.year}`}.</h4>
           </header>
-          <PostRenderer post={this.state.post} />
-          <footer className={styles.footer}>
+          <section className={styles.section}>
             <h4 className={styles.postTags}>Tags:</h4><br/>
             {this.state.post.tags.map((tag, index) => (
-              <Link to={`/blog/tags/#${tag}`} key={index}>{tag}</Link>
+              <span className={styles.tag} key={index}><Link to={`/blog/tags/#${tag}`}>{tag}</Link></span>
             ))}
-          </footer>
+          </section>
+          <PostRenderer post={this.state.post} />
         </div>
       ) : (
         <div className={styles.loading}></div>
