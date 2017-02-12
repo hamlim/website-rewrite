@@ -10,17 +10,17 @@ var md = require('markdown-it')({
   highlight: function (str, lang) {
     if (lang && hljs.getLanguage(lang)) {
       try {
-        return hljs.highlight(lang, str).value;
+        return `<pre class="hljs"><code data-lang="${lang}">${hljs.highlight(lang, str, true).value}</code></pre>`;
       } catch (__) {}
     }
-    return ''; // use external default escaping
+    return `<pre class="hljs"><code data-lang="${lang}">${md.utils.escapeHtml(str)}</code></pre>`;
   }
 }).use(require('markdown-it-task-checkbox'),{
   disabled: true,
   ulClass: 'task-list',
   liClass: 'task-list-item'
-}).use(require('markdown-it-footnote'))
-.use(require('markdown-it-jsx'));
+}).use(require('markdown-it-footnote'));
+//.use(require('markdown-it-jsx'));
 
 class PostRenderer extends Component {
   constructor = (props) => {
@@ -32,7 +32,7 @@ class PostRenderer extends Component {
     markdown: ''
   }
   componentDidMount = () => {
-    let postUrl = `/raw/${this.props.post.year}/${this.props.post.month}/${this.props.post.content}`;
+    let postUrl = `/raw/${this.props.post.year}/${this.props.post.month}/${this.props.post.content}.md`;
     fetch(postUrl).then(data => {
       return data.text();
     }).then(md => {

@@ -6,7 +6,7 @@
     "month": "January",
     "year": "2017",
     "day": "28th",
-    "content": "TwentyEight.md",
+    "content": "TwentyEight",
     "lede": ""
   },
   {
@@ -936,7 +936,7 @@
     "month": "August",
     "year": "2016",
     "day": "21st",
-    "content": "attributeselectors.md",
+    "content": "attributeselectors",
     "lede": ""
   },
   {
@@ -946,7 +946,7 @@
     "month": "August",
     "year": "2016",
     "day": "20th",
-    "content": "August.md",
+    "content": "August",
     "lede": "Where to start? There has been 4 months since my last post on my blog here. A lot has changed since that last post."
   },
   {
@@ -956,7 +956,7 @@
     "month": "April",
     "year": "2016",
     "day": "9th",
-    "content": "Redesign.md",
+    "content": "Redesign",
     "lede": "I recently redesigned my entire website for two reasons. The first was that I wanted to try and use a CSS library I have started work on, and the second was because I felt like my current site was a bit chaotic."
   },
   {
@@ -966,7 +966,7 @@
     "month": "January",
     "year": "2016",
     "day": "30th",
-    "content": "lmsredesign.md",
+    "content": "lmsredesign",
     "lede": "Earlier this evening (the night of the 29th of January) I decided to try and tackle another project."
   },
   {
@@ -976,7 +976,7 @@
     "month": "January",
     "year": "2016",
     "day": "22nd",
-    "content": "afraid.md",
+    "content": "afraid",
     "lede": "If you asked me any time in the past three years at college about if I wanted to stay in college or leave I would have been eager to cut you off"
   },
   {
@@ -986,7 +986,7 @@
     "month": "January",
     "year": "2016",
     "day": "19th",
-    "content": "clientside.md",
+    "content": "clientside",
     "lede": "Recent trend articles are always the popular kind of thing to post on a blog..."
   },
   {
@@ -996,7 +996,7 @@
     "month": "January",
     "year": "2016",
     "day": "6th",
-    "content": "10000characters.md",
+    "content": "10000characters",
     "lede": "So I might be a bit late to the party to write about Twitter considering a new 10,000 character limit for tweets..."
   },
   {
@@ -1006,7 +1006,7 @@
     "month": "January",
     "year": "2016",
     "day": "5th",
-    "content": "myfirstprojectof2016.md",
+    "content": "myfirstprojectof2016",
     "lede": "So I wanted to quickly updated this post, I have decided to shift away from the two libraries I listed below to Skeleton and to a custom JS library."
   },
   {
@@ -1016,7 +1016,7 @@
     "month": "January",
     "year": "2016",
     "day": "3rd",
-    "content": "buildingin2016.md",
+    "content": "buildingin2016",
     "lede": "I often read about people who set impressive goals of number of projects to complete every new year."
   },
   {
@@ -1026,7 +1026,7 @@
     "month": "January",
     "year": "2016",
     "day": "1st",
-    "content": "DJIvsGoPro.md",
+    "content": "DJIvsGoPro",
     "lede": "2016 is going to be a large year for tech, with a lot of potential shown for new products rising from nothing such as the breakout hit hoverboards that came to rise."
   },
   {
@@ -1036,7 +1036,7 @@
     "month": "December",
     "year": "2015",
     "day": "31st",
-    "content": "2016.md",
+    "content": "2016",
     "lede": "I never stick to my goals and resolutions after New Years Evening. The next day I wake up without changing anything about my life that I wanted to."
   },
   {
@@ -1046,7 +1046,7 @@
     "month": "December",
     "year": "2015",
     "day": "30th",
-    "content": "2015.md",
+    "content": "2015",
     "lede": "2015 was a big year for me, I changed a lot about myself internally, and also the settings around me."
   },
   {
@@ -1056,7 +1056,7 @@
     "month": "December",
     "year": "2015",
     "day": "9th",
-    "content": "Powerpoint.md",
+    "content": "Powerpoint",
     "lede": "If you happen to be following the startup world (which is a fairly large catchall term) you may have noticed a trend of new companies building new software that simplifies older software and adds a new UI to it."
   },
   {
@@ -1066,7 +1066,7 @@
     "month": "December",
     "year": "2015",
     "day": "3rd",
-    "content": "BloggingvsWorking.md",
+    "content": "BloggingvsWorking",
     "lede": "From November 25th to December 1st I was posting a blog update once a day, I unfortunately didn't post yesterday however."
   },
   {
@@ -1076,7 +1076,7 @@
     "month": "December",
     "year": "2015",
     "day": "1st",
-    "content": "The-Social-Max.md",
+    "content": "The-Social-Max",
     "lede": "A few days ago I tweeted about an idea I had on social networking."
   },
   {
@@ -1086,7 +1086,7 @@
     "month": "November",
     "year": "2015",
     "day": "30th",
-    "content": "Message.md",
+    "content": "Message",
     "lede": "The above title is something that was taught to me in one of my introductory courses at RPI."
   },
   {
@@ -1096,7 +1096,7 @@
     "month": "November",
     "year": "2015",
     "day": "29th",
-    "content": "ANewResume.md",
+    "content": "ANewResume",
     "lede": "This weekend I set out to work on Bundles and to also work on my own website."
   },
   {
@@ -1106,7 +1106,7 @@
     "month": "November",
     "year": "2015",
     "day": "28th",
-    "content": "Family-Time.md",
+    "content": "Family-Time",
     "lede": "This week(end) for me has been an amazing whirlwind of fun times with family members. Coming home this weekend has been in the works since mid September and up until the time I arrived only a total of 8 people and only 2 family members knew I was coming home."
   },
   {
@@ -1116,7 +1116,7 @@
     "month": "November",
     "year": 2015,
     "day": " 27th",
-    "content": "25-11-15-WeekendProjects.md",
+    "content": "25-11-15-WeekendProjects",
     "lede": "Since I came home for Thanksgiving I figured I would have enough time to get away from pesky homework assignments and projects and spend some time not only with my family but also working on some of my own projects."
   },
   {
@@ -1126,7 +1126,7 @@
     "month": "November",
     "year": 2015,
     "day": "24th",
-    "content": "24-11-15-Thanksgiving.md",
+    "content": "24-11-15-Thanksgiving",
     "lede": "Today is Thanksgiving day 2015 and right before I jump in the kitchen to help my family bake delicious food I wanted to write quickly about what I am thankful for."
   },
   {
@@ -1136,7 +1136,7 @@
     "month": "November",
     "year": 2015,
     "day": "1st",
-    "content": "01-11-15-ANewLook.md",
+    "content": "01-11-15-ANewLook",
     "tags": ["Development"],
     "lede": "I just setup Poole as a blogging style with Jekyll on this (my main website). Hopefully this provides a larger incentive to start posting here then cross posting to Medium."
   }

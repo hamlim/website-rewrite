@@ -39,29 +39,36 @@ But wait, theres more! You actually don't have to worry about nesting selectors 
 }
 ```
 
-<h5 class="escape--default">Space separated list: </h5>
-<pre data-lang="css"><code>
-<span class="css-selector"><span class="css-specialChars">[</span><span class="css-prop">attribute</span>~=<span class="css-string">"something"</span><span class="css-specialChars">]</span></span>
-</code></pre>
-<h5 class="escape--default">Dash separated list: </h5>
-<pre data-lang="css"><code>
-<span class="css-selector"><span class="css-specialChars">[</span><span class="css-prop">attribute</span>|=<span class="css-string">"something"</span><span class="css-specialChars">]</span></span>
-</code></pre>
-<h5 class="escape--default">Substring match: </h5>
-<pre data-lang="css"><code>
-<span class="css-selector"><span class="css-specialChars">[</span><span class="css-prop">attribute</span>*=<span class="css-string">"something"</span><span class="css-specialChars">]</span></span>
-</code></pre>
-<h5 class="escape--default">Case Insensitivity<sup><a href="#f1" class="link">1</a></sup>: </h5>
-<pre data-lang="css"><code>
-<span class="css-selector"><span class="css-specialChars">[</span><span class="css-prop">attribute</span><em>operator</em><span class="css-string">"something"</span><span class="css-specialChars"> i]</span></span>
-</code></pre>
-<p>
-With all these we can make basically any nested structure you might make in SASS or in LESS.
-</p>
-<p>
-I haven't yet updated my css for this site to use attribute selectors but it is on my list. The main reason I haven't done it yet is because its really semantic. So far it includes a lot of typing whereas a simple class syntax and nesting classes with preprocessors is really easy to type and is still really powerful. I will be replacing all id selectors with sttribute selectors however because it will make my code a lot easier to manage in the long run.
-</p>
+##### Space separated list:
+```css
+[attribute~="something"] {
+  prop: value;
+}
+```
+##### Dash separated list:
+```css
+[attribute|="something"] {
+  prop: value;
+}
+```
 
-<hr/>
-<h4>Footnotes:</h4>
-<small id="f1">Note: Operator here can be any of the predefined operations in the above examples, such as <code class="inline-block">=</code>, <code class="inline-block">~=</code>, <code class="inline-block">|=</code>, <code class="inline-block">^=</code>, <code class="inline-block">$=</code>, and <code class="inline-block">*=</code>. Also the <code class="inline-block">i</code> can be lowercase or uppercase.</small>
+##### Substring match:
+```css
+[attribute*="something"] {
+  prop: value;
+}
+```
+##### Case Insensitivity<sup>[^1]:
+```css
+[attribute="something" i] {
+  prop: value;
+}
+```
+
+With all these we can make basically any nested structure you might make in SASS or in LESS.
+
+I haven't yet updated my css for this site to use attribute selectors but it is on my list. The main reason I haven't done it yet is because its really semantic. So far it includes a lot of typing whereas a simple class syntax and nesting classes with preprocessors is really easy to type and is still really powerful. I will be replacing all id selectors with attribute selectors however because it will make my code a lot easier to manage in the long run.
+
+----
+#### Footnotes:
+[^1]:Note: Operator here can be any of the predefined operations in the above examples, such as `=`, `~=`, `|=`, `^=`, `$=`, and `*=`. Also the `i` can be lowercase or uppercase.
