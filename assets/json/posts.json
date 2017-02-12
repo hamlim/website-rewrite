@@ -1,33 +1,1143 @@
 [
   {
-    "title": "Thirty",
-    "slug": "thirty",
-    "date": "01-30-2017",
-    "month": "January",
-    "year": 2017,
-    "day": "30th",
-    "content": "01-30-17-Thirty.md",
-    "tags": ["Development", "Daily"],
-    "lede": "Today I spent most of the day working on my new website. I started from the ground up working on the simple things like headers and wrapper components."
-  },
-  {
-    "title": "Twenty Nine",
-    "slug": "twenty-nine",
-    "date": "01-29-2017",
-    "month": "January",
-    "year": 2017,
-    "day": "29th",
-    "content": "01-29-17-TwentyNine.md",
-    "tags": ["Daily"]
-  },
-  {
+    "slug": "Twenty-Eight",
     "title": "Twenty Eight",
-    "slug": "twenty-eight",
-    "date": "01-28-2017",
+    "tags": ["Daily"],
     "month": "January",
-    "year": 2017,
+    "year": "2017",
     "day": "28th",
     "content": "TwentyEight.md",
-    "tags": ["Daily"]
+    "lede": ""
+  },
+  {
+    "slug": "Twenty-Seven",
+    "title": "Twenty Seven",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "slug": "Twenty-Five",
+    "title": "Twenty Five",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "slug": "Twenty-Four",
+    "title": "Twenty Four",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "slug": "Twenty-Three",
+    "title": "Twenty Three",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "slug": "Twenty-Two",
+    "title": "Twenty Two",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "slug": "Twenty-One",
+    "title": "Twenty One",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "slug": "Twenty",
+    "title": "Twenty",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "slug": "Nineteen",
+    "title": "Nineteen",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "slug": "Eighteen",
+    "title": "Eighteen",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "slug": "Seventeen",
+    "title": "Seventeen",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "slug": "Sixteen",
+    "title": "Sixteen",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "slug": "Markdown-Test",
+    "title": "Markdown Test",
+    "tags": ["Development"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "slug": "Fifteen",
+    "title": "Fifteen",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "slug": "Fourteen",
+    "title": "Fourteen",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "slug": "Thirteen",
+    "title": "Thirteen",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "slug": "Twelve",
+    "title": "Twelve",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "slug": "Eleven",
+    "title": "Eleven",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "slug": "Ten",
+    "title": "Ten",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "slug": "Nine",
+    "title": "Nine",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Eight",
+    "slug": "Eight",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Seven",
+    "slug": "Seven",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Six",
+    "slug": "Six",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Social Networks",
+    "slug": "Social-Networks",
+    "tags": ["Technology"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Five",
+    "slug": "Five",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Four",
+    "slug": "Four",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Three",
+    "slug": "Three",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Two",
+    "slug": "Two",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "One",
+    "slug": "One",
+    "tags": ["Daily"],
+    "month": "January",
+    "year": "2017",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "2017",
+    "slug": "2017",
+    "tags": ["Recap"],
+    "month": "December",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Drained",
+    "slug": "Drained",
+    "tags": ["Burnout"],
+    "month": "December",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Paralysis",
+    "slug": "Paralysis",
+    "tags": ["Burnout"],
+    "month": "December",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "The Macbook Pro",
+    "slug": "The-Macbook-Pro",
+    "tags": ["Technology"],
+    "month": "December",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "The Limitations of CSS in JSX",
+    "slug": "CSS-in-JSX-and-its-Limitations",
+    "tags": ["Development"],
+    "month": "December",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "CSS Feature Locks",
+    "slug": "CSS-Feature-Locks",
+    "tags": ["Development"],
+    "month": "December",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "November Recap",
+    "slug": "November-Recap",
+    "tags": ["Recap"],
+    "month": "December",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Color Cards",
+    "slug": "Color-Cards",
+    "tags": ["Projects"],
+    "month": "November",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Quit Complaining",
+    "slug": "Quit-Complaining",
+    "tags": ["Motivation"],
+    "month": "November",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Government is Broken",
+    "slug": "Government-Is-Broken",
+    "tags": ["Random"],
+    "month": "November",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "The Future of Consumer VR",
+    "slug": "The-Future-of-Consumer-VR",
+    "tags": ["Technology"],
+    "month": "November",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Links",
+    "slug": "Links",
+    "tags": ["Projects", "Random"],
+    "month": "November",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "That First Fucking Step",
+    "slug": "That-First-Fucking-Step",
+    "tags": ["Motivation"],
+    "month": "November",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Photos v2",
+    "slug": "Photos-v2",
+    "tags": ["Photos"],
+    "month": "November",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Recent Projects",
+    "slug": "Recent-Projects",
+    "tags": ["Projects"],
+    "month": "November",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Don't Force It",
+    "slug": "Dont-Force-It",
+    "tags": ["Motivation"],
+    "month": "November",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "The American Fall of 2016",
+    "slug": "The-American-Fall-of-2016",
+    "tags": ["Random"],
+    "month": "November",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "I Voted",
+    "slug": "I-Voted",
+    "tags": ["Random"],
+    "month": "November",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Monday Mornings",
+    "slug": "Monday-Mornings",
+    "tags": ["Blog"],
+    "month": "November",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Creativity",
+    "slug": "Creativity",
+    "tags": ["Motivation"],
+    "month": "November",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Don't Reach for React",
+    "slug": "Dont-Reach-For-React",
+    "tags": ["Development"],
+    "month": "November",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Macbook Pro",
+    "slug": "Macbook-Pro",
+    "tags": ["Development"],
+    "month": "November",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Refactoring Sucks",
+    "slug": "Refactoring-Sucks",
+    "tags": ["Development"],
+    "month": "November",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Just Ship It",
+    "slug": "Just-Ship-It",
+    "tags": ["Development", "Motivation"],
+    "month": "November",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "October Recap",
+    "slug": "October-Recap",
+    "tags": ["Recap"],
+    "month": "November",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Sunday Morning Recap 3",
+    "slug": "Sunday-Morning-Recap-volume-3",
+    "tags": ["Recap"],
+    "month": "October",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Weekly Recap 9",
+    "slug": "Weekly-Recap-volume-9",
+    "tags": ["Recap"],
+    "month": "October",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Photos v1",
+    "slug": "Photos-v1",
+    "tags": ["Photos"],
+    "month": "October",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Weekend Projects 8",
+    "slug": "Weekend-Projects-volume-8",
+    "tags": ["Recap", "Projects"],
+    "month": "October",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Sunday Morning Recap 2",
+    "slug": "Sunday-Morning-Recap-volume-2",
+    "tags": ["Recap"],
+    "month": "October",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Weekly Recap 8",
+    "slug": "Weekly-Recap-volume-8",
+    "tags": ["Recap"],
+    "month": "October",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "CSS Bugs: Inline-Block",
+    "slug": "CSS-Bugs-Inline-Block",
+    "tags": ["Development"],
+    "month": "October",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Weekend Projects 7",
+    "slug": "Weekend-Projects-volume-7",
+    "tags": ["Recap", "Projects"],
+    "month": "October",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Sunday Morning Recap 1",
+    "slug": "Sunday-Morning-Recap-volume-1",
+    "tags": ["Recap"],
+    "month": "October",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "State of my Projects",
+    "slug": "State-of-my-Projects",
+    "tags": ["Projects"],
+    "month": "October",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Weekly Recap 7",
+    "slug": "Weekly-Recap-volume-7",
+    "tags": ["Recap"],
+    "month": "October",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Pseudo Elements",
+    "slug": "Pseudo-Selectors-Part-2",
+    "tags": ["Development"],
+    "month": "October",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Pseudo Classes",
+    "slug": "Pseudo-Selectors-Part-1",
+    "tags": ["Development"],
+    "month": "October",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Weekend Projects 6",
+    "slug": "Weekend-Projects-volume-6",
+    "tags": ["Recap", "Projects"],
+    "month": "October",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "The Great CSS Debate",
+    "slug": "The-Great-CSS-Debate",
+    "tags": ["Development"],
+    "month": "October",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Weekly Recap 6",
+    "slug": "Weekly-Recap-volume-6",
+    "tags": ["Recap"],
+    "month": "October",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Pixel Phones",
+    "slug": "Pixel",
+    "tags": ["Technology"],
+    "month": "October",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Weekly Recap 5",
+    "slug": "Weekly-Recap-volume-5",
+    "tags": ["Recap"],
+    "month": "October",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "October 4th",
+    "slug": "October-4th",
+    "tags": ["Technology"],
+    "month": "October",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "September Update",
+    "slug": "September-Update",
+    "tags": ["Recap"],
+    "month": "September",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Sick Update",
+    "slug": "Sick",
+    "tags": ["Random"],
+    "month": "September",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Weekly Recap 4",
+    "slug": "Weekly-Recap-volume-4",
+    "tags": ["Recap"],
+    "month": "September",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Preserving Aspect Ratio with CSS",
+    "slug": "Video-Aspect-Ratio-With-CSS",
+    "tags": ["Development"],
+    "month": "September",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "GoPro Karma",
+    "slug": "GoPro-Karma",
+    "tags": ["Technology"],
+    "month": "September",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Google Event Updates",
+    "slug": "Google-Event-Updates",
+    "tags": ["Technology"],
+    "month": "September",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Weekend Projects 3",
+    "slug": "Weekend-Projects-volume-3",
+    "tags": ["Projects", "Recap"],
+    "month": "September",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Weekly Recap 3",
+    "slug": "Weekly-Recap-volume-3",
+    "tags": ["Recap"],
+    "month": "September",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Hyper(term) is Cool",
+    "slug": "HyperTerm",
+    "tags": ["Development"],
+    "month": "September",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "RFP: Database API",
+    "slug": "RFP-Database-API",
+    "tags": ["Development"],
+    "month": "September",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Google Event Predictions",
+    "slug": "Google-Event-Predictions",
+    "tags": ["Technology"],
+    "month": "September",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Github is a Pain",
+    "slug": "Github-Is-A-Pain",
+    "tags": ["Development"],
+    "month": "September",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Weekend Projects 2",
+    "slug": "Weekend-Projects-volume-2",
+    "tags": ["Projects", "Recap"],
+    "month": "September",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Weekly Recap 2",
+    "slug": "Weekly-Recap-volume-2",
+    "tags": ["Recap"],
+    "month": "September",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "YouTube is Not for You",
+    "slug": "YouTube-Is-For-Advertisers",
+    "tags": ["Random"],
+    "month": "September",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Weekend Projects 1",
+    "slug": "Building-An-API-On-Now",
+    "tags": ["Projects", "Recap"],
+    "month": "September",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Weekly Recap 1",
+    "slug": "Weekly-Recap-volume-1",
+    "tags": ["Recap"],
+    "month": "September",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "My New Website",
+    "slug": "My-New-Website",
+    "tags": ["Random"],
+    "month": "August",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Pull Quotes on the Web",
+    "slug": "Pull-Quotes-on-the-Web",
+    "tags": ["Random"],
+    "month": "August",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Redesign v5",
+    "slug": "Design-V5",
+    "tags": ["Random"],
+    "month": "August",
+    "year": "2016",
+    "day": "",
+    "content": "",
+    "lede": ""
+  },
+  {
+    "title": "Attribute Selectors FTW",
+    "slug": "Attribute-Selectors",
+    "tags": ["Development"],
+    "month": "August",
+    "year": "2016",
+    "day": "21st",
+    "content": "attributeselectors.md",
+    "lede": ""
+  },
+  {
+    "title": "August Updates",
+    "slug": "August",
+    "tags": ["Recap"],
+    "month": "August",
+    "year": "2016",
+    "day": "20th",
+    "content": "August.md",
+    "lede": "Where to start? There has been 4 months since my last post on my blog here. A lot has changed since that last post."
+  },
+  {
+    "title": "Redesign",
+    "slug": "Redesign",
+    "tags": ["Random"],
+    "month": "April",
+    "year": "2016",
+    "day": "9th",
+    "content": "Redesign.md",
+    "lede": "I recently redesigned my entire website for two reasons. The first was that I wanted to try and use a CSS library I have started work on, and the second was because I felt like my current site was a bit chaotic."
+  },
+  {
+    "title": "LMS Redesign Part 1",
+    "slug": "LMS-Redesign-Part-1",
+    "tags": ["Projects"],
+    "month": "January",
+    "year": "2016",
+    "day": "30th",
+    "content": "lmsredesign.md",
+    "lede": "Earlier this evening (the night of the 29th of January) I decided to try and tackle another project."
+  },
+  {
+    "title": "The Scariest Time of My Life",
+    "slug": "Afraid",
+    "tags": ["Blog"],
+    "month": "January",
+    "year": "2016",
+    "day": "22nd",
+    "content": "afraid.md",
+    "lede": "If you asked me any time in the past three years at college about if I wanted to stay in college or leave I would have been eager to cut you off"
+  },
+  {
+    "title": "Client Side",
+    "slug": "Client-Side",
+    "tags": ["Development"],
+    "month": "January",
+    "year": "2016",
+    "day": "19th",
+    "content": "clientside.md",
+    "lede": "Recent trend articles are always the popular kind of thing to post on a blog..."
+  },
+  {
+    "title": "10,000 Characters",
+    "slug": "What-Twitter-Should-Do",
+    "tags": ["Technology"],
+    "month": "January",
+    "year": "2016",
+    "day": "6th",
+    "content": "10000characters.md",
+    "lede": "So I might be a bit late to the party to write about Twitter considering a new 10,000 character limit for tweets..."
+  },
+  {
+    "title": "My First Project of 2016",
+    "slug": "First-Project-of-2016",
+    "tags": ["Projects"],
+    "month": "January",
+    "year": "2016",
+    "day": "5th",
+    "content": "myfirstprojectof2016.md",
+    "lede": "So I wanted to quickly updated this post, I have decided to shift away from the two libraries I listed below to Skeleton and to a custom JS library."
+  },
+  {
+    "title": "Building in 2016",
+    "slug": "Building-In-2016",
+    "tags": ["Projects"],
+    "month": "January",
+    "year": "2016",
+    "day": "3rd",
+    "content": "buildingin2016.md",
+    "lede": "I often read about people who set impressive goals of number of projects to complete every new year."
+  },
+  {
+    "title": "DJI vs GoPro",
+    "slug": "DJI-vs-GoPro",
+    "tags": ["Technology"],
+    "month": "January",
+    "year": "2016",
+    "day": "1st",
+    "content": "DJIvsGoPro.md",
+    "lede": "2016 is going to be a large year for tech, with a lot of potential shown for new products rising from nothing such as the breakout hit hoverboards that came to rise."
+  },
+  {
+    "title": "2016 Goals",
+    "slug": "2016",
+    "tags": ["Random"],
+    "month": "December",
+    "year": "2015",
+    "day": "31st",
+    "content": "2016.md",
+    "lede": "I never stick to my goals and resolutions after New Years Evening. The next day I wake up without changing anything about my life that I wanted to."
+  },
+  {
+    "title": "2015 in Review",
+    "slug": "2015",
+    "tags": ["Recap"],
+    "month": "December",
+    "year": "2015",
+    "day": "30th",
+    "content": "2015.md",
+    "lede": "2015 was a big year for me, I changed a lot about myself internally, and also the settings around me."
+  },
+  {
+    "title": "Where is the Powerpoint Remake?",
+    "slug": "Powerpoint",
+    "tags": ["Development"],
+    "month": "December",
+    "year": "2015",
+    "day": "9th",
+    "content": "Powerpoint.md",
+    "lede": "If you happen to be following the startup world (which is a fairly large catchall term) you may have noticed a trend of new companies building new software that simplifies older software and adds a new UI to it."
+  },
+  {
+    "title": "Blogging vs Working",
+    "slug": "Blogging-vs-Working",
+    "tags": ["Development"],
+    "month": "December",
+    "year": "2015",
+    "day": "3rd",
+    "content": "BloggingvsWorking.md",
+    "lede": "From November 25th to December 1st I was posting a blog update once a day, I unfortunately didn't post yesterday however."
+  },
+  {
+    "title": "The Social Max",
+    "slug": "The-Social-Max",
+    "tags": ["Random"],
+    "month": "December",
+    "year": "2015",
+    "day": "1st",
+    "content": "The-Social-Max.md",
+    "lede": "A few days ago I tweeted about an idea I had on social networking."
+  },
+  {
+    "title": "The Message is in the Medium",
+    "slug": "Message",
+    "tags": ["Technology"],
+    "month": "November",
+    "year": "2015",
+    "day": "30th",
+    "content": "Message.md",
+    "lede": "The above title is something that was taught to me in one of my introductory courses at RPI."
+  },
+  {
+    "title": "A New Resume",
+    "slug": "A-New-Resume",
+    "tags": ["Random"],
+    "month": "November",
+    "year": "2015",
+    "day": "29th",
+    "content": "ANewResume.md",
+    "lede": "This weekend I set out to work on Bundles and to also work on my own website."
+  },
+  {
+    "title": "Family Time",
+    "slug": "Family-Time",
+    "tags": ["Random"],
+    "month": "November",
+    "year": "2015",
+    "day": "28th",
+    "content": "Family-Time.md",
+    "lede": "This week(end) for me has been an amazing whirlwind of fun times with family members. Coming home this weekend has been in the works since mid September and up until the time I arrived only a total of 8 people and only 2 family members knew I was coming home."
+  },
+  {
+    "title": "Weekend Projects",
+    "slug": "Weekend-Projects",
+    "tags": ["Projects"],
+    "month": "November",
+    "year": 2015,
+    "day": " 27th",
+    "content": "25-11-15-WeekendProjects.md",
+    "lede": "Since I came home for Thanksgiving I figured I would have enough time to get away from pesky homework assignments and projects and spend some time not only with my family but also working on some of my own projects."
+  },
+  {
+    "title": "Thanksgiving",
+    "slug": "Thanksgiving",
+    "tags": ["Random"],
+    "month": "November",
+    "year": 2015,
+    "day": "24th",
+    "content": "24-11-15-Thanksgiving.md",
+    "lede": "Today is Thanksgiving day 2015 and right before I jump in the kitchen to help my family bake delicious food I wanted to write quickly about what I am thankful for."
+  },
+  {
+    "title": "A New Look",
+    "slug": "A-New-Look",
+    "date": "01-11-15",
+    "month": "November",
+    "year": 2015,
+    "day": "1st",
+    "content": "01-11-15-ANewLook.md",
+    "tags": ["Development"],
+    "lede": "I just setup Poole as a blogging style with Jekyll on this (my main website). Hopefully this provides a larger incentive to start posting here then cross posting to Medium."
   }
 ]

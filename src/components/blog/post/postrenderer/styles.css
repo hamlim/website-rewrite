@@ -25,6 +25,38 @@
     color: var(--a);
     text-decoration: none;
   }
+  & figure {
+    text-align: center;
+  }
+  & img {
+    max-width: 90%;
+    margin: 2rem auto;
+  }
+  & blockquote {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--gray-muted);
+    & p {
+      display: inline;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  & blockquote::before {
+    color: var(--a);
+    content: open-quote;
+  }
+  & blockquote::after {
+    color: var(--a);
+    content: close-quote;
+  }
+  & ul,
+  & ol {
+    list-style-position: inside;
+    @media screen and (min-width: 40rem) {
+      list-style-position: outside;
+    }
+  }
 }
 
 :global(.task-list-item) {

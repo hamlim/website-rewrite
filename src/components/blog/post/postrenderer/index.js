@@ -2,13 +2,25 @@ import React, {Component} from 'react';
 import 'whatwg-fetch';
 
 import styles from './styles.css';
-
-var md = require('markdown-it')()
-  .use(require('markdown-it-task-checkbox'),{
-    disabled: true,
-    ulClass: 'task-list',
-    liClass: 'task-list-item'
-  });
+import * as hljs from 'highlight.js';
+var md = require('markdown-it')({
+  html: true,
+  linkify: true,
+  typographer: true,
+  highlight: function (str, lang) {
+    if (lang && hljs.getLanguage(lang)) {
+      try {
+        return hljs.highlight(lang, str).value;
+      } catch (__) {}
+    }
+    return ''; // use external default escaping
+  }
+}).use(require('markdown-it-task-checkbox'),{
+  disabled: true,
+  ulClass: 'task-list',
+  liClass: 'task-list-item'
+}).use(require('markdown-it-footnote'))
+.use(require('markdown-it-jsx'));
 
 class PostRenderer extends Component {
   constructor = (props) => {
