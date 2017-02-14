@@ -735,9 +735,9 @@
     "tags": ["Recap"],
     "month": "September",
     "year": "2016",
-    "day": "",
-    "content": "",
-    "lede": ""
+    "day": "30th",
+    "content": "september",
+    "lede": "September has been one of my most productive months in a while."
   },
   {
     "title": "Sick Update",
@@ -745,9 +745,9 @@
     "tags": ["Random"],
     "month": "September",
     "year": "2016",
-    "day": "",
-    "content": "",
-    "lede": ""
+    "day": "26th",
+    "content": "sick",
+    "lede": "🤢 So this article is a quick description about why I missed my Weekend Projects #004 post yesterday."
   },
   {
     "title": "Weekly Recap 4",
@@ -755,9 +755,9 @@
     "tags": ["Recap"],
     "month": "September",
     "year": "2016",
-    "day": "",
-    "content": "",
-    "lede": ""
+    "day": "23rd",
+    "content": "wr4",
+    "lede": "This past week went by fairly quickly, mostly because at work we are ramping up for launch of an exciting new project I am working on and also because I feel like all my time has either been at work or in transit or sleeping."
   },
   {
     "title": "Preserving Aspect Ratio with CSS",
@@ -765,9 +765,9 @@
     "tags": ["Development"],
     "month": "September",
     "year": "2016",
-    "day": "",
-    "content": "",
-    "lede": ""
+    "day": "23rd",
+    "content": "aspectratio",
+    "lede": "I recently posted a few blog posts with YouTube embedded videos and also with my own video element on this blog, and while I was doing it I wanted to focus on making it look as pleasant as possible."
   },
   {
     "title": "GoPro Karma",
@@ -775,9 +775,9 @@
     "tags": ["Technology"],
     "month": "September",
     "year": "2016",
-    "day": "",
-    "content": "",
-    "lede": ""
+    "day": "22nd",
+    "content": "goprokarma",
+    "lede": "The other day GoPro launched the Karma, its first drone."
   },
   {
     "title": "Google Event Updates",
@@ -785,9 +785,9 @@
     "tags": ["Technology"],
     "month": "September",
     "year": "2016",
-    "day": "",
-    "content": "",
-    "lede": ""
+    "day": "21st",
+    "content": "googleeventupdates",
+    "lede": "Google officially confirmed that there will be an event on October 4th, and strongly hinted at a new piece of hardware."
   },
   {
     "title": "Weekend Projects 3",
@@ -795,9 +795,9 @@
     "tags": ["Projects", "Recap"],
     "month": "September",
     "year": "2016",
-    "day": "",
-    "content": "",
-    "lede": ""
+    "day": "18th",
+    "content": "wp3",
+    "lede": "This weekend was basically 80% spent working on projects. Saturday I re-configured my personal website (this one!) to have all my styling be done in PostCSS."
   },
   {
     "title": "Weekly Recap 3",
@@ -805,9 +805,9 @@
     "tags": ["Recap"],
     "month": "September",
     "year": "2016",
-    "day": "",
-    "content": "",
-    "lede": ""
+    "day": "16th",
+    "content": "wr3",
+    "lede": "This past week felt really slow, yet somehow finished off quickly."
   },
   {
     "title": "Hyper(term) is Cool",
