@@ -58,6 +58,10 @@
     }
   }
 }
+:global(.has-video) {
+  text-align: center;
+  margin: 1em 0;
+}
 
 :global(.task-list-item) {
   list-style: none;

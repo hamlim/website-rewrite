@@ -40,8 +40,9 @@
 .tag {
   background-color: var(--b-muted);
   padding: .25em;
-  color: var(--b);
+  color: var(--white);
   border-radius: 4px;
+  margin: 0 1em;
   & a {
     color: inherit;
   }

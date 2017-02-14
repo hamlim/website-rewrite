@@ -815,9 +815,9 @@
     "tags": ["Development"],
     "month": "September",
     "year": "2016",
-    "day": "",
-    "content": "",
-    "lede": ""
+    "day": "16th",
+    "content": "hypertem",
+    "lede": "I recently decided to give Hyper a try."
   },
   {
     "title": "RFP: Database API",
@@ -825,9 +825,9 @@
     "tags": ["Development"],
     "month": "September",
     "year": "2016",
-    "day": "",
-    "content": "",
-    "lede": ""
+    "day": "13th",
+    "content": "rfpdatabaseapi",
+    "lede": "For the first in my series of Request for Proposal/Product Blog posts, I wanted to explain an idea I had for a database platform/service."
   },
   {
     "title": "Google Event Predictions",
@@ -835,9 +835,9 @@
     "tags": ["Technology"],
     "month": "September",
     "year": "2016",
-    "day": "",
-    "content": "",
-    "lede": ""
+    "day": "13th",
+    "content": "googleeventpredictions",
+    "lede": "Google is planning to drop a few new pieces of hardware on October 4th."
   },
   {
     "title": "Github is a Pain",
@@ -845,9 +845,9 @@
     "tags": ["Development"],
     "month": "September",
     "year": "2016",
-    "day": "",
-    "content": "",
-    "lede": ""
+    "day": "12th",
+    "content": "githubisapain",
+    "lede": "If you happen to be the one or two people who read this blog semi-regularly you probably know that I host this entire website on Github Pages."
   },
   {
     "title": "Weekend Projects 2",
@@ -855,9 +855,9 @@
     "tags": ["Projects", "Recap"],
     "month": "September",
     "year": "2016",
-    "day": "",
-    "content": "",
-    "lede": ""
+    "day": "11th",
+    "content": "wp2",
+    "lede": "This weekend I didn't really work on too many projects."
   },
   {
     "title": "Weekly Recap 2",
@@ -865,9 +865,9 @@
     "tags": ["Recap"],
     "month": "September",
     "year": "2016",
-    "day": "",
-    "content": "",
-    "lede": ""
+    "day": "10th",
+    "content": "wr2",
+    "lede": "This past week was a bit shorter in terms of working days because of Labor day."
   },
   {
     "title": "YouTube is Not for You",
@@ -875,9 +875,9 @@
     "tags": ["Random"],
     "month": "September",
     "year": "2016",
-    "day": "",
-    "content": "",
-    "lede": ""
+    "day": "7th",
+    "content": "youtubeisforadvertisers",
+    "lede": "In case you haven't heard, YouTube is yet again disappointing the creators on their site through a huge automated move that recently started."
   },
   {
     "title": "Weekend Projects 1",
@@ -885,9 +885,9 @@
     "tags": ["Projects", "Recap"],
     "month": "September",
     "year": "2016",
-    "day": "",
-    "content": "",
-    "lede": ""
+    "day": "4th",
+    "content": "wp1",
+    "lede": "Although I have an extra day on this weekend, I figured I would get a jump start on a new blog series about the various projects I am working on during the weekends."
   },
   {
     "title": "Weekly Recap 1",
@@ -895,9 +895,9 @@
     "tags": ["Recap"],
     "month": "September",
     "year": "2016",
-    "day": "",
-    "content": "",
-    "lede": ""
+    "day": "3rd",
+    "content": "wr1",
+    "lede": "This past week went by so quickly, or at least it did until Friday when it slowed down to an infinite crawl with each second feeling like it lasted minutes."
   },
   {
     "title": "My New Website",
@@ -905,9 +905,9 @@
     "tags": ["Random"],
     "month": "August",
     "year": "2016",
-    "day": "",
-    "content": "",
-    "lede": ""
+    "day": "28th",
+    "content": "mynewwebsite",
+    "lede": "Over the past 2 or three weeks I have been both busy at work and also busy outside of work."
   },
   {
     "title": "Pull Quotes on the Web",
@@ -915,9 +915,9 @@
     "tags": ["Random"],
     "month": "August",
     "year": "2016",
-    "day": "",
-    "content": "",
-    "lede": ""
+    "day": "24th",
+    "content": "pullquotes",
+    "lede": "I recently read an interesting blog post about why pull quotes are used on the web."
   },
   {
     "title": "Redesign v5",
@@ -925,9 +925,9 @@
     "tags": ["Random"],
     "month": "August",
     "year": "2016",
-    "day": "",
-    "content": "",
-    "lede": ""
+    "day": "21st",
+    "content": "redesign-v5",
+    "lede": "Technically the name of this document is designV5.md however I really don't know what version this is of my personal webpage."
   },
   {
     "title": "Attribute Selectors FTW",
@@ -937,7 +937,7 @@
     "year": "2016",
     "day": "21st",
     "content": "attributeselectors",
-    "lede": ""
+    "lede": "I have recently been reading a lot of interesting articles and looking at a few interesting Codepen's that deal with attribute selectors."
   },
   {
     "title": "August Updates",

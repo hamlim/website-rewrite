@@ -1,4 +1,3 @@
-
 I have recently been reading a lot of interesting articles and looking at a few interesting Codepen's that deal with attribute selectors. The two links that stand out the most are <a href="https://css-tricks.com/weird-design-languages-with-attributes/">this article</a> about making a design language with attribute selectors and <a href="http://codepen.io/alexzaworski/pen/xOBmXP">this</a> Codepen about making a color mixer from attribute selectors.
 
 After I saw these two ideas expressed I began to think about specificity. Regularly when dealing with css developers need to keep in mind the number of selectors they use to style specific parts of a website. It really only gets complicated when managing a large codebase with several developers all authoring new code and also updating old code. <em>So if you are looking for a solution for a large company (more than 5 developers) this is probably not the way to go.</em>
