@@ -58,7 +58,8 @@
     }
   }
 }
-:global(.has-video) {
+:global(.has-video),
+:global(.has-image) {
   text-align: center;
   margin: 1em 0;
 }
