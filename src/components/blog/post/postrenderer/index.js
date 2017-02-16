@@ -19,7 +19,8 @@ var md = require('markdown-it')({
   disabled: true,
   ulClass: 'task-list',
   liClass: 'task-list-item'
-}).use(require('markdown-it-footnote'));
+}).use(require('markdown-it-footnote'))
+.use(require('markdown-it-deflist'));
 //.use(require('markdown-it-jsx'));
 
 class PostRenderer extends Component {

@@ -15296,7 +15296,7 @@ var md = __webpack_require__(361)({
   disabled: true,
   ulClass: 'task-list',
   liClass: 'task-list-item'
-}).use(__webpack_require__(359));
+}).use(__webpack_require__(359)).use(__webpack_require__(534));
 //.use(require('markdown-it-jsx'));
 
 var PostRenderer = function (_Component) {
@@ -15983,7 +15983,7 @@ exports = module.exports = __webpack_require__(9)();
 
 
 // module
-exports.push([module.i, ".styles__article--1rRIN {\n  font-size: 1.05rem;\n  line-height: 1.6;\n  margin-bottom: 3rem;\n  margin-left: 1rem;\n  margin-right: 1rem\n}\n  @media screen and (min-width: 45rem) {\n  .styles__article--1rRIN {\n    margin-left: 0;\n    margin-right: 0\n  }\n  }\n  .styles__article--1rRIN > p + p {\n  margin-top: 1rem\n}\n  .styles__article--1rRIN p:first-child {\n  margin-top: 1.5rem\n}\n  .styles__article--1rRIN hr {\n  margin: 1rem auto;\n  max-width: 45vw\n}\n  @media screen and (max-width: 40rem) {\n  .styles__article--1rRIN hr {\n    width: 95vw\n  }\n}\n  .styles__article--1rRIN a {\n  color: var(--a);\n  text-decoration: none\n}\n  .styles__article--1rRIN figure {\n  text-align: center\n}\n  .styles__article--1rRIN img {\n  max-width: 90%;\n  margin: 2rem auto\n}\n  .styles__article--1rRIN blockquote {\n  margin: 1rem;\n  padding: 1rem;\n  background-color: var(--gray-muted)\n}\n  .styles__article--1rRIN blockquote p {\n  display: inline;\n  margin: 0;\n  padding: 0\n}\n  .styles__article--1rRIN blockquote::before {\n  color: var(--a);\n  content: open-quote\n}\n  .styles__article--1rRIN blockquote::after {\n  color: var(--a);\n  content: close-quote\n}\n  .styles__article--1rRIN ul,\n  .styles__article--1rRIN ol {\n  list-style-position: inside\n}\n  @media screen and (min-width: 40rem) {\n  .styles__article--1rRIN ul,\n  .styles__article--1rRIN ol {\n    list-style-position: outside\n  }\n}\n.has-video,\n.has-image {\n  text-align: center;\n  margin: 1em 0;\n}\n.example {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\niframe {\n  width: calc(100vw - 2rem);\n  height: calc(.6 * (100vw - 2rem))\n}\n@media screen and (min-width: 50rem) {\n  iframe {\n    width: 50rem;\n    margin-left: -2.5rem;\n    height: 30rem\n  }\n  }\n.task-list-item {\n  list-style: none;\n}\n", ""]);
+exports.push([module.i, ".styles__article--1rRIN {\n  font-size: 1.05rem;\n  line-height: 1.6;\n  margin-bottom: 3rem;\n  margin-left: 1rem;\n  margin-right: 1rem\n}\n  @media screen and (min-width: 45rem) {\n  .styles__article--1rRIN {\n    margin-left: 0;\n    margin-right: 0\n  }\n  }\n  .styles__article--1rRIN > p + p {\n  margin-top: 1rem\n}\n  .styles__article--1rRIN p:first-child {\n  margin-top: 1.5rem\n}\n  .styles__article--1rRIN hr {\n  margin: 1rem auto;\n  max-width: 45vw\n}\n  @media screen and (max-width: 40rem) {\n  .styles__article--1rRIN hr {\n    width: 95vw\n  }\n}\n  .styles__article--1rRIN a {\n  color: var(--a);\n  text-decoration: none\n}\n  .styles__article--1rRIN figure {\n  text-align: center\n}\n  .styles__article--1rRIN img {\n  max-width: 90%;\n  margin: 2rem auto\n}\n  .styles__article--1rRIN blockquote {\n  margin: 1rem;\n  padding: 1rem;\n  background-color: var(--gray-muted)\n}\n  .styles__article--1rRIN blockquote p {\n  display: inline;\n  margin: 0;\n  padding: 0\n}\n  .styles__article--1rRIN blockquote::before {\n  color: var(--a);\n  content: open-quote\n}\n  .styles__article--1rRIN blockquote::after {\n  color: var(--a);\n  content: close-quote\n}\n  .styles__article--1rRIN ul,\n  .styles__article--1rRIN ol {\n  list-style-position: inside\n}\n  @media screen and (min-width: 40rem) {\n  .styles__article--1rRIN ul,\n  .styles__article--1rRIN ol {\n    list-style-position: outside\n  }\n}\n  .styles__article--1rRIN h1,\n  .styles__article--1rRIN h2,\n  .styles__article--1rRIN h3,\n  .styles__article--1rRIN h4,\n  .styles__article--1rRIN h5,\n  .styles__article--1rRIN h6 {\n  margin-top: 2em;\n  margin-bottom: 1em\n}\n.has-video,\n.has-image {\n  text-align: center;\n  margin: 1em 0;\n}\n.example {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\niframe {\n  width: calc(100vw - 2rem);\n  height: calc(.6 * (100vw - 2rem))\n}\n@media screen and (min-width: 50rem) {\n  iframe {\n    width: 50rem;\n    margin-left: -2.5rem;\n    height: 30rem\n  }\n  }\n.task-list-item {\n  list-style: none;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -59989,6 +59989,238 @@ var _start2 = _interopRequireDefault(_start);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _reactDom.render)(_react2.default.createElement(_start2.default, null), document.getElementById('mount'));
+
+/***/ }),
+/* 534 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+// Process definition lists
+//
+
+
+
+module.exports = function deflist_plugin(md) {
+  var isSpace = md.utils.isSpace;
+
+  // Search `[:~][\n ]`, returns next pos after marker on success
+  // or -1 on fail.
+  function skipMarker(state, line) {
+    var pos, marker,
+        start = state.bMarks[line] + state.tShift[line],
+        max = state.eMarks[line];
+
+    if (start >= max) { return -1; }
+
+    // Check bullet
+    marker = state.src.charCodeAt(start++);
+    if (marker !== 0x7E/* ~ */ && marker !== 0x3A/* : */) { return -1; }
+
+    pos = state.skipSpaces(start);
+
+    // require space after ":"
+    if (start === pos) { return -1; }
+
+    // no empty definitions, e.g. "  : "
+    if (pos >= max) { return -1; }
+
+    return start;
+  }
+
+  function markTightParagraphs(state, idx) {
+    var i, l,
+        level = state.level + 2;
+
+    for (i = idx + 2, l = state.tokens.length - 2; i < l; i++) {
+      if (state.tokens[i].level === level && state.tokens[i].type === 'paragraph_open') {
+        state.tokens[i + 2].hidden = true;
+        state.tokens[i].hidden = true;
+        i += 2;
+      }
+    }
+  }
+
+  function deflist(state, startLine, endLine, silent) {
+    var ch,
+        contentStart,
+        ddLine,
+        dtLine,
+        itemLines,
+        listLines,
+        listTokIdx,
+        max,
+        nextLine,
+        offset,
+        oldDDIndent,
+        oldIndent,
+        oldParentType,
+        oldSCount,
+        oldTShift,
+        oldTight,
+        pos,
+        prevEmptyEnd,
+        tight,
+        token;
+
+    if (silent) {
+      // quirk: validation mode validates a dd block only, not a whole deflist
+      if (state.ddIndent < 0) { return false; }
+      return skipMarker(state, startLine) >= 0;
+    }
+
+    nextLine = startLine + 1;
+    if (state.isEmpty(nextLine)) {
+      if (++nextLine > endLine) { return false; }
+    }
+
+    if (state.sCount[nextLine] < state.blkIndent) { return false; }
+    contentStart = skipMarker(state, nextLine);
+    if (contentStart < 0) { return false; }
+
+    // Start list
+    listTokIdx = state.tokens.length;
+    tight = true;
+
+    token     = state.push('dl_open', 'dl', 1);
+    token.map = listLines = [ startLine, 0 ];
+
+    //
+    // Iterate list items
+    //
+
+    dtLine = startLine;
+    ddLine = nextLine;
+
+    // One definition list can contain multiple DTs,
+    // and one DT can be followed by multiple DDs.
+    //
+    // Thus, there is two loops here, and label is
+    // needed to break out of the second one
+    //
+    /*eslint no-labels:0,block-scoped-var:0*/
+    OUTER:
+    for (;;) {
+      prevEmptyEnd = false;
+
+      token          = state.push('dt_open', 'dt', 1);
+      token.map      = [ dtLine, dtLine ];
+
+      token          = state.push('inline', '', 0);
+      token.map      = [ dtLine, dtLine ];
+      token.content  = state.getLines(dtLine, dtLine + 1, state.blkIndent, false).trim();
+      token.children = [];
+
+      token          = state.push('dt_close', 'dt', -1);
+
+      for (;;) {
+        token     = state.push('dd_open', 'dd', 1);
+        token.map = itemLines = [ nextLine, 0 ];
+
+        pos = contentStart;
+        max = state.eMarks[ddLine];
+        offset = state.sCount[ddLine] + contentStart - (state.bMarks[ddLine] + state.tShift[ddLine]);
+
+        while (pos < max) {
+          ch = state.src.charCodeAt(pos);
+
+          if (isSpace(ch)) {
+            if (ch === 0x09) {
+              offset += 4 - offset % 4;
+            } else {
+              offset++;
+            }
+          } else {
+            break;
+          }
+
+          pos++;
+        }
+
+        contentStart = pos;
+
+        oldTight = state.tight;
+        oldDDIndent = state.ddIndent;
+        oldIndent = state.blkIndent;
+        oldTShift = state.tShift[ddLine];
+        oldSCount = state.sCount[ddLine];
+        oldParentType = state.parentType;
+        state.blkIndent = state.ddIndent = state.sCount[ddLine] + 2;
+        state.tShift[ddLine] = contentStart - state.bMarks[ddLine];
+        state.sCount[ddLine] = offset;
+        state.tight = true;
+        state.parentType = 'deflist';
+
+        state.md.block.tokenize(state, ddLine, endLine, true);
+
+        // If any of list item is tight, mark list as tight
+        if (!state.tight || prevEmptyEnd) {
+          tight = false;
+        }
+        // Item become loose if finish with empty line,
+        // but we should filter last element, because it means list finish
+        prevEmptyEnd = (state.line - ddLine) > 1 && state.isEmpty(state.line - 1);
+
+        state.tShift[ddLine] = oldTShift;
+        state.sCount[ddLine] = oldSCount;
+        state.tight = oldTight;
+        state.parentType = oldParentType;
+        state.blkIndent = oldIndent;
+        state.ddIndent = oldDDIndent;
+
+        token = state.push('dd_close', 'dd', -1);
+
+        itemLines[1] = nextLine = state.line;
+
+        if (nextLine >= endLine) { break OUTER; }
+
+        if (state.sCount[nextLine] < state.blkIndent) { break OUTER; }
+        contentStart = skipMarker(state, nextLine);
+        if (contentStart < 0) { break; }
+
+        ddLine = nextLine;
+
+        // go to the next loop iteration:
+        // insert DD tag and repeat checking
+      }
+
+      if (nextLine >= endLine) { break; }
+      dtLine = nextLine;
+
+      if (state.isEmpty(dtLine)) { break; }
+      if (state.sCount[dtLine] < state.blkIndent) { break; }
+
+      ddLine = dtLine + 1;
+      if (ddLine >= endLine) { break; }
+      if (state.isEmpty(ddLine)) { ddLine++; }
+      if (ddLine >= endLine) { break; }
+
+      if (state.sCount[ddLine] < state.blkIndent) { break; }
+      contentStart = skipMarker(state, ddLine);
+      if (contentStart < 0) { break; }
+
+      // go to the next loop iteration:
+      // insert DT and DD tags and repeat checking
+    }
+
+    // Finilize list
+    token = state.push('dl_close', 'dl', -1);
+
+    listLines[1] = nextLine;
+
+    state.line = nextLine;
+
+    // mark paragraphs tight if needed
+    if (tight) {
+      markTightParagraphs(state, listTokIdx);
+    }
+
+    return true;
+  }
+
+
+  md.block.ruler.before('paragraph', 'deflist', deflist, { alt: [ 'paragraph', 'reference' ] });
+};
+
 
 /***/ })
 /******/ ]);
