@@ -15296,7 +15296,7 @@ var md = __webpack_require__(362)({
   disabled: true,
   ulClass: 'task-list',
   liClass: 'task-list-item'
-}).use(__webpack_require__(360)).use(__webpack_require__(359));
+}).use(__webpack_require__(360)).use(__webpack_require__(359)).use(__webpack_require__(535));
 //.use(require('markdown-it-jsx'));
 
 var PostRenderer = function (_Component) {
@@ -15318,12 +15318,21 @@ var PostRenderer = function (_Component) {
       _this.setState = _this.setState.bind(_this);
     }, _this.state = {
       loading: true,
-      markdown: ''
+      markdown: '',
+      error: false
     }, _this.componentDidMount = function () {
       var postUrl = '/raw/' + _this.props.post.year + '/' + _this.props.post.month + '/' + _this.props.post.content + '.md';
       fetch(postUrl).then(function (data) {
         return data.text();
       }).then(function (md) {
+        if (md.includes('<!DOCTYPE html>')) {
+          _this.setState({
+            error: 'Article doesn\'t exist. Routing you back to where you came from. 👋🏼'
+          });
+          window.setTimeout(function (_) {
+            return window.history.back();
+          }, 15000);
+        }
         _this.setState({
           loading: false,
           markdown: md
@@ -15332,7 +15341,16 @@ var PostRenderer = function (_Component) {
         return console.warn(err);
       });
     }, _this.render = function () {
-      return _react2.default.createElement('article', { className: _styles2.default.article, dangerouslySetInnerHTML: { __html: md.render(_this.state.markdown) } });
+      return _react2.default.createElement(
+        'div',
+        null,
+        _this.state.error && _react2.default.createElement(
+          'h1',
+          { className: _styles2.default.error },
+          _this.state.error
+        ),
+        _react2.default.createElement('article', { className: _styles2.default.article, dangerouslySetInnerHTML: { __html: md.render(_this.state.markdown) } })
+      );
     }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
@@ -15983,11 +16001,12 @@ exports = module.exports = __webpack_require__(9)();
 
 
 // module
-exports.push([module.i, ".styles__article--1rRIN {\n  font-size: 1.05rem;\n  line-height: 1.6;\n  margin-bottom: 3rem;\n  margin-left: 1rem;\n  margin-right: 1rem\n}\n  @media screen and (min-width: 45rem) {\n  .styles__article--1rRIN {\n    margin-left: 0;\n    margin-right: 0\n  }\n  }\n  .styles__article--1rRIN > p + p {\n  margin-top: 1rem\n}\n  .styles__article--1rRIN p:first-child {\n  margin-top: 1.5rem\n}\n  .styles__article--1rRIN hr {\n  margin: 1rem auto;\n  max-width: 45vw\n}\n  @media screen and (max-width: 40rem) {\n  .styles__article--1rRIN hr {\n    width: 95vw\n  }\n}\n  .styles__article--1rRIN a {\n  color: var(--a);\n  text-decoration: none\n}\n  .styles__article--1rRIN figure {\n  text-align: center\n}\n  .styles__article--1rRIN img {\n  max-width: 90%;\n  margin: 2rem auto\n}\n  .styles__article--1rRIN blockquote {\n  margin: 1rem;\n  padding: 1rem;\n  background-color: var(--gray-muted)\n}\n  .styles__article--1rRIN blockquote p {\n  display: inline;\n  margin: 0;\n  padding: 0\n}\n  .styles__article--1rRIN blockquote::before {\n  color: var(--a);\n  content: open-quote\n}\n  .styles__article--1rRIN blockquote::after {\n  color: var(--a);\n  content: close-quote\n}\n  .styles__article--1rRIN ul,\n  .styles__article--1rRIN ol {\n  list-style-position: inside\n}\n  @media screen and (min-width: 40rem) {\n  .styles__article--1rRIN ul,\n  .styles__article--1rRIN ol {\n    list-style-position: outside\n  }\n}\n  .styles__article--1rRIN h1,\n  .styles__article--1rRIN h2,\n  .styles__article--1rRIN h3,\n  .styles__article--1rRIN h4,\n  .styles__article--1rRIN h5,\n  .styles__article--1rRIN h6 {\n  margin-top: 2em;\n  margin-bottom: 1em\n}\n.has-video,\n.has-image {\n  text-align: center;\n  margin: 1em 0;\n}\n.example {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\niframe {\n  width: calc(100vw - 2rem);\n  height: calc(.6 * (100vw - 2rem))\n}\n@media screen and (min-width: 50rem) {\n  iframe {\n    width: 50rem;\n    margin-left: -2.5rem;\n    height: 30rem\n  }\n  }\n.task-list-item {\n  list-style: none;\n}\n", ""]);
+exports.push([module.i, "\n.styles__article--1rRIN {\n  font-size: 1.05rem;\n  line-height: 1.6;\n  margin-bottom: 3rem;\n  margin-left: 1rem;\n  margin-right: 1rem\n}\n  @media screen and (min-width: 45rem) {\n  .styles__article--1rRIN {\n    margin-left: 0;\n    margin-right: 0\n  }\n  }\n  .styles__article--1rRIN > p + p {\n  margin-top: 1rem\n}\n  .styles__article--1rRIN p:first-child {\n  margin-top: 1.5rem\n}\n  .styles__article--1rRIN hr {\n  margin: 1rem auto;\n  max-width: 45vw\n}\n  @media screen and (max-width: 40rem) {\n  .styles__article--1rRIN hr {\n    width: 95vw\n  }\n}\n  .styles__article--1rRIN a {\n  color: var(--a);\n  text-decoration: none\n}\n  .styles__article--1rRIN figure {\n  text-align: center\n}\n  .styles__article--1rRIN img {\n  max-width: 90%;\n  margin: 2rem auto\n}\n  .styles__article--1rRIN blockquote {\n  margin: 1rem;\n  padding: 1rem;\n  background-color: var(--gray-muted)\n}\n  .styles__article--1rRIN blockquote p {\n  display: inline;\n  margin: 0;\n  padding: 0\n}\n  .styles__article--1rRIN blockquote::before {\n  color: var(--a);\n  content: open-quote\n}\n  .styles__article--1rRIN blockquote::after {\n  color: var(--a);\n  content: close-quote\n}\n  .styles__article--1rRIN ul,\n  .styles__article--1rRIN ol {\n  list-style-position: inside\n}\n  @media screen and (min-width: 40rem) {\n  .styles__article--1rRIN ul,\n  .styles__article--1rRIN ol {\n    list-style-position: outside\n  }\n}\n  .styles__article--1rRIN h1,\n  .styles__article--1rRIN h2,\n  .styles__article--1rRIN h3,\n  .styles__article--1rRIN h4,\n  .styles__article--1rRIN h5,\n  .styles__article--1rRIN h6 {\n  margin-top: 2em;\n  margin-bottom: 1em\n}\n.has-video,\n.has-image {\n  text-align: center;\n  margin: 1em 0;\n}\n.example {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\niframe {\n  width: calc(100vw - 2rem);\n  height: calc(.6 * (100vw - 2rem))\n}\n@media screen and (min-width: 50rem) {\n  iframe {\n    width: 50rem;\n    margin-left: -2.5rem;\n    height: 30rem\n  }\n  }\n.task-list-item {\n  list-style: none;\n}\n.styles__error--2EjBr {\n  text-align: center;\n  padding: 1em;\n  color: #e74c3c;\n  background-color: #F19990;\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"article": "styles__article--1rRIN"
+	"article": "styles__article--1rRIN",
+	"error": "styles__error--2EjBr"
 };
 
 /***/ }),
@@ -60221,6 +60240,67 @@ var _start2 = _interopRequireDefault(_start);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _reactDom.render)(_react2.default.createElement(_start2.default, null), document.getElementById('mount'));
+
+/***/ }),
+/* 535 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+// Process <!-- comments -->
+
+
+
+function inlinecomment(state, silent) {
+  var found,
+      content,
+      max = state.posMax,
+      start = state.pos;
+
+  if (silent) { return false; } // don't run any pairs in validation mode
+  if (start + 7 >= max) { return false; }
+
+  if (state.src.charCodeAt(start) !== 60 /* < */ ||
+      state.src.charCodeAt(start + 1) !== 33 /* ! */ ||
+      state.src.charCodeAt(start + 2) !== 45/* - */ ||
+      state.src.charCodeAt(start + 3) !== 45/* - */
+      ) {
+    return false;
+  }
+  state.pos = start + 4;
+
+  // find the end
+  while (state.pos + 3 <= max) {
+    if (state.src.charCodeAt(state.pos) === 45/* - */ &&
+        state.src.charCodeAt(state.pos + 1) === 45/* - */ &&
+        state.src.charCodeAt(state.pos + 2) === 62/* > */
+    ) {
+      found = true;
+      state.pos = state.pos + 3;
+      break;
+    }
+
+    state.md.inline.skipToken(state);
+  }
+
+  if (!found || start + 1 === state.pos) {
+    state.pos = start;
+    return false;
+  }
+
+  content = state.src.slice(start + 4, state.pos);
+
+  // don't allow unescaped newlines inside
+  if (content.match(/(^|[^\\])(\\\\)*[\n]/)) {
+    state.pos = start;
+    return false;
+  }
+  return true;
+}
+
+module.exports = function inline_comment_plugin(md) {
+  md.inline.ruler.after('emphasis', 'inlinecomment', inlinecomment);
+};
+
 
 /***/ })
 /******/ ]);

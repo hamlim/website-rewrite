@@ -20,7 +20,8 @@ var md = require('markdown-it')({
   ulClass: 'task-list',
   liClass: 'task-list-item'
 }).use(require('markdown-it-footnote'))
-.use(require('markdown-it-deflist'));
+.use(require('markdown-it-deflist'))
+.use(require('markdown-it-inline-comments'));
 //.use(require('markdown-it-jsx'));
 
 class PostRenderer extends Component {
@@ -30,13 +31,20 @@ class PostRenderer extends Component {
   }
   state = {
     loading: true,
-    markdown: ''
+    markdown: '',
+    error: false
   }
   componentDidMount = () => {
     let postUrl = `/raw/${this.props.post.year}/${this.props.post.month}/${this.props.post.content}.md`;
     fetch(postUrl).then(data => {
       return data.text();
     }).then(md => {
+      if (md.includes('<!DOCTYPE html>')) {
+        this.setState({
+          error: 'Article doesn\'t exist. Routing you back to where you came from. 👋🏼'
+        });
+        window.setTimeout(_ => window.history.back(), 15000);
+      }
       this.setState({
         loading: false,
         markdown: md
@@ -44,7 +52,10 @@ class PostRenderer extends Component {
     }).catch(err => console.warn(err));
   }
   render = () => (
-    <article className={styles.article} dangerouslySetInnerHTML={{ __html: md.render(this.state.markdown) }}></article>
+    <div>
+      {this.state.error && (<h1 className={styles.error}>{this.state.error}</h1>)}
+      <article className={styles.article} dangerouslySetInnerHTML={{ __html: md.render(this.state.markdown) }}></article>
+    </div>
   )
 };
 

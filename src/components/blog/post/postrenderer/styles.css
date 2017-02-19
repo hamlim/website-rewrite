@@ -1,3 +1,4 @@
+
 .article {
   font-size: 1.05rem;
   line-height: 1.6;
@@ -89,4 +90,11 @@
 
 :global(.task-list-item) {
   list-style: none;
+}
+
+.error {
+  text-align: center;
+  padding: 1em;
+  color: #e74c3c;
+  background-color: #F19990;
 }
