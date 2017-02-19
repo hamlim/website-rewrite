@@ -635,9 +635,9 @@
     "tags": ["Projects"],
     "month": "October",
     "year": "2016",
-    "day": "",
+    "day": "16th",
     "content": "Stateofmyprojects",
-    "lede": ""
+    "lede": "Below is a comprehensive (as much as possible) overview of all my current and past and future projects that I have either started and worked on or am looking at to build. I mostly want to do this to clear my head of all the things I am trying to work on."
   },
   {
     "title": "Weekly Recap 7",
@@ -645,9 +645,9 @@
     "tags": ["Recap"],
     "month": "October",
     "year": "2016",
-    "day": "",
+    "day": "15th",
     "content": "wr7",
-    "lede": ""
+    "lede": "This past week was quite interesting, I had several new project ideas and decided I wanted to clean up a bit in terms of what projects I am actively developing and what project ideas that I want to actively develop."
   },
   {
     "title": "Pseudo Elements",
@@ -655,9 +655,9 @@
     "tags": ["Development"],
     "month": "October",
     "year": "2016",
-    "day": "",
+    "day": "12th",
     "content": "pseudoelements",
-    "lede": "@TODO"
+    "lede": "Pseudo elements act as real dom nodes within the flow of a document only when they are specified within CSS."
   },
   {
     "title": "Pseudo Classes",
