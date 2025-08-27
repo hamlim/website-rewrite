@@ -25,7 +25,7 @@
     "markdown-it-inline-comments": "^1.0.1",
     "markdown-it-jsx": "^1.1.0",
     "markdown-it-task-checkbox": "^1.0.2",
-    "marked": "^0.3.6",
+    "marked": "^4.0.10",
     "postcss-import": "^9.1.0",
     "postcss-loader": "^1.0.0",
     "react-helmet": "^4.0.0",
