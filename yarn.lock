@@ -2101,9 +2101,9 @@ markdown-it-task-checkbox@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/markdown-it-task-checkbox/-/markdown-it-task-checkbox-1.0.2.tgz#e2d3fb5591af82e89c760782585d3122bbe2d177"
 
-markdown-it@^14.3.1:
-  version "14.3.1"
-  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-14.3.1.tgz#8974e2473779363ed5682ea377f31564ee51e292"
+markdown-it@^14.3.3:
+  version "14.3.3"
+  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-14.3.3.tgz#15e6e145d20b1499a7b323bb14e21062690132d8"
   dependencies:
     argparse "^2.0.1"
     entities "^4.5.0"
